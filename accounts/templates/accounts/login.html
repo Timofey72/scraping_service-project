@@ -1,0 +1,32 @@
+<!doctype html>
+{% extends "scraping/base.html" %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %} Login {% endblock %}</title>
+</head>
+<body>
+{% block content %}
+
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <h4 class="text-center my-2">Вход</h4>
+            <form method="POST" action="">
+                {% csrf_token %}
+                <div class="mb-3">
+                    <label>Введите email:</label>{{ form.email }}<br>
+                    <label>Введите пароль:</label>{{ form.password }}
+                </div>
+                <div style="display:inline-block">
+                    <button type="submit" class="btn btn-primary">Войти</button>
+                </div>
+                <div style="display:inline-block">
+                    <h6>Ещё нет аккаунта? <a href="{% url 'signup_user' %}" style="text-decoration: none">Зарегистрироваться!</a></h6>
+                </div>
+            </form>
+        </div>
+    </div>
+
+{% endblock %}
+</body>
+</html>

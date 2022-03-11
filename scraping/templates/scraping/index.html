@@ -1,0 +1,31 @@
+<!doctype html>
+{% extends "scraping/base.html" %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %} Home {% endblock %}</title>
+</head>
+<body>
+{% block content %}
+
+    <div class="row">
+        <div class="col">
+            <h2 class="text-center my-3">Сервир по сбору и рассылки вакансий</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <h4 class="text-center my-2">Для просмотра факансий заполните форму</h4>
+            <form method="GET" action="{% url 'list' %}">
+                <div class="mb-3">
+                    {{ form.as_p }}
+                </div>
+                <button type="submit" class="btn btn-primary">Найти</button>
+            </form>
+        </div>
+    </div>
+
+{% endblock %}
+</body>
+</html>
