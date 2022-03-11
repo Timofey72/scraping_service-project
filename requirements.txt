@@ -3,11 +3,17 @@ beautifulsoup4==4.10.0
 bs4==0.0.1
 certifi==2021.10.8
 charset-normalizer==2.0.12
+dj-database-url==0.5.0
 Django==4.0.2
 fake-useragent==0.1.11
+gunicorn==20.1.0
 html5lib==1.1
 idna==3.3
+password==0.2
+psycopg2-binary==2.9.3
+python-dotenv==0.19.2
 requests==2.27.1
+send-email==201212
 six==1.16.0
 slug==2.0
 soupsieve==2.3.1
@@ -15,3 +21,4 @@ sqlparse==0.4.2
 tzdata==2021.5
 urllib3==1.26.8
 webencodings==0.5.1
+whitenoise==6.0.0
