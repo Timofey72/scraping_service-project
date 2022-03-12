@@ -1,0 +1,3256 @@
+[
+{
+    "model": "scraping.city",
+    "pk": 3,
+    "fields": {
+        "name": "Тюмень",
+        "slug": "tyumen"
+    }
+},
+{
+    "model": "scraping.city",
+    "pk": 5,
+    "fields": {
+        "name": "Москва",
+        "slug": "moskva"
+    }
+},
+{
+    "model": "scraping.language",
+    "pk": 2,
+    "fields": {
+        "name": "Python",
+        "slug": "python"
+    }
+},
+{
+    "model": "scraping.language",
+    "pk": 5,
+    "fields": {
+        "name": "JavaScript",
+        "slug": "javascript"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 3,
+    "fields": {
+        "url": "https://tyumen.hh.ru/vacancy/53062276?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Javascript",
+        "title": "Фронтенд-разработчик",
+        "company": "ООО Симакс",
+        "description": "Требуемый опыт работы: 3–6 лет\r\n\r\nПолная занятость, полный день\r\n\r\nООО «СИМАКС»- резидент ГАУ ТО \"Западно-Сибирский инновационный центр\" (Тюменский технопарк)\r\n\r\nКомпания занимается разработкой автоматизированного программного комплекса по безопасности труда для проведения обучения, аттестаций, инструктажей руководителей и специалистов, осуществления производственного контроля.\r\n\r\nОбязанности:\r\n\r\nРазработка и развитие собственных крупных проектов компании.\r\nТребования:\r\nХорошее знание JavaScript (ES5, ES6);\r\nОпыт работы с современным фреймворком Vue3 более года;\r\nУверенное знание методов взаимодействия с сервером (REST);\r\nХорошее знание CSS и HTML, адаптивная верстка;\r\nОпыт работы с CSS препроцессорами (LESS/SASS/...);\r\nУмение пользоваться Git;\r\nНавыки работы в команде.\r\nУсловия:\r\nработа в комфортабельном, современном офисе Тюмени;\r\nработу в команде профессионалов высокого уровня, условия для профессионального и личного развития;\r\nстабильная заработная плата;\r\nпремирование за успешную реализацию проектов;\r\nвозможность посещения конференций и курсов.",
+        "city": 3,
+        "language": 5,
+        "timestamp": "2022-03-01"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 4,
+    "fields": {
+        "url": "https://tyumen.hh.ru/vacancy/53379080?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+        "title": "Python developer",
+        "company": "ИНСИС",
+        "description": "Поддержка рабочего кода, улучшения в работе сервиса видеонаблюдения и ТВ. Поддержка сервиса домофонии. Взаимодействие с билинговой системой (есть возможность выбора...Python. Docker. Понимание процессов и опыт CI/CD. GitLab. Python (FastAPI в приоритете, django). Kafka. Знание одного из диалектов SQL...",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 5,
+    "fields": {
+        "url": "https://tyumen.hh.ru/vacancy/53281326?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+        "title": "Аналитик данных (Data Scientist)",
+        "company": "Site&Seo",
+        "description": "Разработка, настройка и улучшение предсказательных моделей по ключевым показателям. Выбор и расчет метрик качества моделей (ROC, AUC, интерпретация результатов). Уверенные знания языка Python. Опыт построения моделей машинного обучения (logistic regression, random forest, gradient boosting, neural networks). Опыт анализа ключевых...",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 6,
+    "fields": {
+        "url": "https://tyumen.hh.ru/vacancy/51992930?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+        "title": "Программист Middle Python",
+        "company": "Carbon Soft",
+        "description": "Разработка продукта EvaCRM. Активно улучшать продукт, делая новые фичи. Участие в улучшении и доработке текущей архитектуры. Улучшение внутренних процессов работы...Опыт в рефакторинге, декомпозиции, построении модульных приложений. Знание git. Опыт работы с SQL (желательно с PostgreSQL). Python 3.8. Flask. ",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 7,
+    "fields": {
+        "url": "https://tyumen.hh.ru/vacancy/49933119?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+        "title": "Программист Python",
+        "company": "ООО КЦМ",
+        "description": "Поддержание проектов компании (CRM - система,разработка сайтов,Web - проектов от Лендинга до Web - сервисов).Знание языка программирования Python. Уверенное владение Linux. Знание Django. Git. Понимание принципов работы баз данных. Технический английский (будет преимуществом). ",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 8,
+    "fields": {
+        "url": "https://tyumen.hh.ru/vacancy/52835130?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+        "title": "Full-stack Python developer middle+ (Кипр, г. Лимассол)",
+        "company": "Skanestas Investments Limited",
+        "description": "Разработка ассистант систем для трейдеров (оповещения, веб-дашборды). Создание и мониторинг автоматизированных биржевых алгоритмов. Создание загрузчиков биржевых данных. Опыт разработки на Python 3 не менее 3-х лет. Есть навык структурно писать тесты и тестируемый код. ",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 9,
+    "fields": {
+        "url": "https://tyumen.hh.ru/vacancy/53382770?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+        "title": "Python-разработчик",
+        "company": "Цветочная мастерская Лаванда",
+        "description": "Реализовывать новые функции для магазина и информационной системы. Решать задачи по масштабированию, оптимизации и ускорению сервиса. Разрабатывать backend. Хорошо знакомы с асинхронным программированием. Писали на Python не менее 3 лет. Разбираетесь в PostgreSQL. Знаете и работали с flask...",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 10,
+    "fields": {
+        "url": "https://tyumen.hh.ru/vacancy/52021272?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+        "title": "Разработчик (Python)",
+        "company": "Пикта. Карьера в Пикта",
+        "description": "Основная задача, с которой предстоит встречаться почти каждый день - разработка новых программ-роботов и поддержка существующих. Кроме этого необходимо будет...Хорошего разработчика со знанием и опытом работы с: Объектно-ориентированными языками программирования (VB.net, Python). Реляционными базами данных (Ms SQL, Postgre...",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 11,
+    "fields": {
+        "url": "https://tyumen.hh.ru/vacancy/52228057?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+        "title": "Python-разработчик",
+        "company": "Контур",
+        "description": "Задачи разработки, которые сейчас решаются силами инженеров. Автоматизация рутины, чтобы заниматься действительно интересными вещами. Писать системы контроля и мониторинга, утилиты...Опыт разработки на Python от двух лет, желательно уровня Middle/Senior. Желание погружаться в том числе в системную разработку. ",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 12,
+    "fields": {
+        "url": "https://tyumen.hh.ru/vacancy/53517177?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+        "title": "Middle Python Developer со знанием CS:GO",
+        "company": "ИП Бондаренко Ростислав Витальевич",
+        "description": "Команда разработки русскоязычная, полностью распределенная. Взаимодействуем через стандартный набор инструментов - Jira  Gitlab. Задачи: Непрерывная реализация ивентов по CS:GO. Базовые знания и понимание игры СS:GO. Опыт разработки на Django/Flask. Опыт работы с MongoDB. Опыт командной разработки. ",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 13,
+    "fields": {
+        "url": "https://tyumen.hh.ru/vacancy/52986412?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+        "title": "Backend-разработчик на Python",
+        "company": "ЛОТОС, инжиниринговая компания",
+        "description": "Прием заявок на участие ограничен.Обязательные навыки: опыт работы в Python, Flask, HTML, CSS, Bootstrap, MySQL, Git, участие в группах распределенной разработки Интернет-проектов. ",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 14,
+    "fields": {
+        "url": "https://tyumen.hh.ru/vacancy/53199168?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+        "title": "Python разработчик",
+        "company": "ООО РН-БашНИПИнефть",
+        "description": "ОС: Серверные версии Windows, RedHat & CentOS Linux. Инфраструктура: VMware, Docker. Код: Gitlab, непрерывная интеграция и развертывание (CI/CD). Опыт использования библиотек Python для парсинга и обработки данных. Опыт использования Python для разработки сервисов и клиентской части: знание Qt...",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 15,
+    "fields": {
+        "url": "https://tyumen.hh.ru/vacancy/52555729?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+        "title": "Data scientist senior level",
+        "company": "ООО АНДАТА",
+        "description": "Решение задач бизнеса с помощью машинного обучения. Постановка и декомпозиция задач машинного обучения. Управление небольшой командой (датасайнтист и датаинженер). Отличное знание Python и опыт работы с ним. Знание алгоритмов data mining, теории вероятности и математической статистики. Знание алгоритмов deep...",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 16,
+    "fields": {
+        "url": "https://tyumen.hh.ru/vacancy/53361960?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+        "title": "DevOps инженер/Стажер (удалённо)",
+        "company": "EPAM Systems, Inc.",
+        "description": "DevOps и Agile. Программирование для DevOps (Bash, Python). Управление конфигурациями (Ansible). Внедрение и настройка CI/CD процессов (Jenkins GitLab CI).Опыт администрирования Linux или Windows систем от 1 года. Знание скриптовых языков (Bash/Python) или других языков программирования. ",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 17,
+    "fields": {
+        "url": "https://tyumen.hh.ru/vacancy/52521673?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+        "title": "Python разработчик (продуктовая разработка)",
+        "company": "Сайтсофт",
+        "description": "Мы ищем специалиста в команду разработки продукта SITESOFT.DATA - платформы для сбора, анализа и визуализации данных. Продукт позволяет собирать данные из...Flask, React. Опыт разработки на одном из фреймворков: Flask/Django/FastAPI/Tornado/aiohttp. Опыт работы с базами данных (не только...",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 18,
+    "fields": {
+        "url": "https://tyumen.hh.ru/vacancy/52163316?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+        "title": "Python developer (Django)",
+        "company": "ООО СкайДНС",
+        "description": "Предстоящие задачи: Разработка новых сервисов компании. Поддержка и развитие API (json-rpc). Реализация логики в личных кабинетах продуктовых решений. Имеет аналогичный опыт работы от 2 лет. Обладает отличным знанием Python 3. Имеет опыт работы с Django, Flask. ",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 19,
+    "fields": {
+        "url": "https://tyumen.hh.ru/vacancy/38348123?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+        "title": "Системный разработчик Python",
+        "company": "ООО Айдеко",
+        "description": "Разрабатывать микросервисы с использованием Asyncio и AioHTTP. Разрабатывать демоны по настройке и управлению сетью. Писать системные утилиты. Проектировать архитектуру системы...Опыт коммерческой разработки от 3‑х лет. Навыки администрирования сетевых сервисов в Linux (squid, nginx, ppp и др). ",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 20,
+    "fields": {
+        "url": "https://tyumen.hh.ru/vacancy/52287536?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+        "title": "Python developer",
+        "company": "The Head",
+        "description": "Участие в разработке больших, сложных и интересных интернет-проектов - наши клиенты крупнейшие российские и иностранные компании: М.Видео, Спортмастер, аптечная сеть...Владение Python 3, понимание современных подходов к разработке. Опыт работы с MySQL или MariaDB, понимание реляционной модели баз данных. ",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 21,
+    "fields": {
+        "url": "https://tyumen.hh.ru/vacancy/52274315?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+        "title": "Middle Python-разработчик в отдел 1С разработки",
+        "company": "Контур",
+        "description": "Переезд с MYSQL на PostgreSQL. Рефакторинг структуры существующих проектов. Проектирование магазина приложений.Опыт промышленной разработки на Python от двух лет. Понимание работы с бинарными форматами через struct, многопоточностью, многопроцессорностью, асинхронным выполнением. ",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 22,
+    "fields": {
+        "url": "https://tyumen.hh.ru/vacancy/52525692?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+        "title": "QA-engineer",
+        "company": "InvestEngine",
+        "description": "Организовывать и проводить функциональное тестирование web-приложения (и UI, и API). Тестировать мобильные приложения на iOS и Android. От трёх лет опыта тестирования веб- и мобильных приложений. Практический опыт применения практик тест-дизайна. Опыт работы с Postman или...",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 23,
+    "fields": {
+        "url": "https://tyumen.hh.ru/vacancy/48486658?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+        "title": "Python Backend Developer",
+        "company": "Playrix",
+        "description": "Разрабатывать серверную часть новых сервисов и дорабатывать существующие. Настраивать интеграции между внутренними и облачными сервисами, используемыми в компании.Опыт промышленной backend разработки на Python и SQL. Опыт разработки с использованием асинхронных фреймворков. Понимание REST API. Умение читать, анализировать...",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 24,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/44027093/?search_id=1646735418985neaju8o5fbc",
+        "title": "Data Engineer",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 25,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45058051/?search_id=1646735418985neaju8o5fbc",
+        "title": "Python разработчик",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 26,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45492715/?search_id=1646735418985neaju8o5fbc",
+        "title": "Devops-инженер",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 27,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45492786/?search_id=1646735418985neaju8o5fbc",
+        "title": "Системный администратор",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 28,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45986915/?search_id=1646735418985neaju8o5fbc",
+        "title": "Team Lead / Руководитель группы разработки",
+        "company": "Smarter",
+        "description": "SMARTER – аутсорсинговый контактный центр. Мы разработали программный комплекс для автоматизации работы всего колл-центра, сейчас им пользуются 1800 наших сотрудников и подключённые к системе компании-партнёры. У нас есть сложный и интересный проект с утвержденным планом развития на год с множеством…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 29,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46034943/?search_id=1646735418985neaju8o5fbc",
+        "title": "Teamlead Python",
+        "company": "Объединенное Кредитное Бюро",
+        "description": "Объединенное кредитное бюро (Бюро) – крупнейшее бюро кредитных историй в России. Бюро действует на рынке с 2004 г. В числе наших клиентов более 600 банков, МФО, страховых компаний и операторов сотовой связи. Ищем тимлида в команду PartnerSales, которая занимается интеграцией дистрибьюторов (наших партнеров)…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 30,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45864331/?search_id=1646735418985neaju8o5fbc",
+        "title": "Data Engineer",
+        "company": "ПартКом, ООО",
+        "description": "Создание сложных отчетов; Поддержка существующих OLAP-кубов и ETL/ELT процессов, связанных с ними; Взаимодействие с заказчиками; Участие в развитии DWH, автоматизация подготовки витрин данных. Требования: Отличное знание SQL; SSAS, MSSQL, SSIS, SSRS, BI; Плюсом будет Python, колоночные/аналитические…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 31,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45584042/?search_id=1646735418985neaju8o5fbc",
+        "title": "Cloud Infrastructure Lead / Ведущий инженер по инфраструктуре (СберЗвук Бизнес)",
+        "company": "СберЗвук",
+        "description": "Это что-то новое. СберЗвук для бизнеса — новое направление в аудиостриминге. Мы создаём музыкальную атмосферу в заведениях, чтобы бренды звучали красиво, увеличивали продажи и нравились людям. И для этого нам нужны профессионалы. О продукте. В нашем сервисе можно создать кастомный плейлист для любого…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 32,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45673102/?search_id=1646735418985neaju8o5fbc",
+        "title": "Разработчик iOS",
+        "company": "ООО \"Центр Трансформации Бизнеса\"",
+        "description": "Развивать iOS приложения в команде разработчиков с заданной архитектурой. Использование Code Review и тестов в ходе разработки. Реализовывать продуктовые и технические решения согласно заданию. Оформление кода с файловой структурой и с учетом читабельности. Разработка программных модулей для обработки…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 33,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45817236/?search_id=1646735418985neaju8o5fbc",
+        "title": "Senior Data Engineer",
+        "company": "СберМегаМаркет",
+        "description": "СберМегаМаркет — это большая дерзкая цель, крутая команда и стабильные инвестиции. Продукт, который мы создали — высоконагруженная онлайн-платформа, соединяющая товары и покупателей. Множество сервисов нашего продукта работают в гибридной инфраструктуре, которая постоянно расширяется и развивается…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 34,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45959130/?search_id=1646735418985neaju8o5fbc",
+        "title": "Systems Engineer/SRE",
+        "company": "Okko",
+        "description": "Мультимедийный сервис Okko — один из крупнейших российских VoD-сервисов, лидер по платной модели монетизации. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Okko входит в экосистему Сбера. В…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 35,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45890625/?search_id=1646735418985neaju8o5fbc",
+        "title": "Преподаватель курсов программирования (удаленно)",
+        "company": "Школа программирования TOKEN",
+        "description": "Школа программирования TOKEN - это место, где школьники под руководством преподавателей получают знания в современном и интересном формате, изучают программирование в игровой форме, знакомятся с востребованными профессиями будущего и прокачивают свои soft skills. Основные курсы школы: Minecraft, Scratch…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 36,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46203687/?search_id=1646735418985neaju8o5fbc",
+        "title": "Риск-аналитик",
+        "company": "Микрокредитная компания Рубль.ру",
+        "description": "Разработка и оптимизация скоринговых моделей; Анализ переменных, разработка правил и групп на основе исследований переменных; Построение и проверка гипотез направленных на увеличение одобрения и выполнение показателей дефолтности; Выявление уязвимостей моделей; Разработка антифрод правил для пресечения…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 37,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45649680/?search_id=1646735418985neaju8o5fbc",
+        "title": "Разработчик C++ в сервис Поиска",
+        "company": "2ГИС",
+        "description": "Привет! Мы в команде поиска разрабатываем поисковый движок для 2ГИС. Делаем его таким, чтобы наши пользователи находили всё точно, полно, быстро и на любом устройстве. Для этого мы проверяем работу поиска так, что тестов прогоняется за день больше, чем пользователи делают запросов на бою. Анализируем…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 38,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45465986/?search_id=1646735418985neaju8o5fbc",
+        "title": "Разработчик на Python Back-end",
+        "company": "КОРУС Консалтинг СНГ",
+        "description": "СберКорус — цифровая платформа для компаний и физических лиц. Мы организуем любой бизнес-процесс без бумаги. В 2004 году компания “КОРУС Консалтинг СНГ” стала первым в России оператором электронного документооборота, а в 2012 году вошла в экосистему Сбера и сменила название, сохранив за собой все свои…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 39,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46087077/?search_id=1646735418985neaju8o5fbc",
+        "title": "Специалист технической поддержки",
+        "company": "Тинькофф",
+        "description": "Поддержка пользователей высоконагруженной системы аналитики и мониторинга; Решение проблем в рамках своей компетенции; Взаимодействие со смежными подразделениями по решению технических вопросов; Требования: Опыт работы с технологиями и протоколами http, grpc, rest api; Понимание концепции работы клиент-сервер…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 40,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45996018/?search_id=1646735418985neaju8o5fbc",
+        "title": "Python Developer",
+        "company": "ООО \"Ай-Ти Технолоджис\"",
+        "description": "Привет! Мы - IT-компания, ведем интересные и амбициозные проекты разной сложности. В нашей небольшой, но очень дружной команде освободилось место python backend разработчика на нашем главном и самом перспективном проекте. Мы ищем ответственного человека с жаждой знаний, который сможет занять это место…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 41,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45831061/?search_id=1646735418985neaju8o5fbc",
+        "title": "Developer python",
+        "company": "ООО \"БИЗНЕС-ИННОВАЦИИ\"",
+        "description": "Поддерживать и оптимизировать текущие проекты, создавать новые; участвовать в проработке и улучшении архитектуры системы и API; использовать современные подходы, инструменты и технологии. Требования: экспертное владение Python, PostgreSql и MySQL; навыки создания Rest API; ответственность за качество…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 42,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/44770797/?search_id=1646735418985neaju8o5fbc",
+        "title": "Backend-разработчик C/Go",
+        "company": "Rambler&Co",
+        "description": "Rambler&Co занимает первое место среди медиахолдингов России по размеру ежемесячной аудитории — свыше 39,5 млн человек (по данным Mediascope, Cross Web, H2 2021). В него входит «Лента.ру», «Газета.Ru», портал «Рамблер», «Чемпионат», «Секрет фирмы», WMJ.ru, Motor.ru, LiveJournal и ряд других медиаактивов…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 43,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45986825/?search_id=1646735418985neaju8o5fbc",
+        "title": "Team Lead / Руководитель группы разработки",
+        "company": "Smarter",
+        "description": "SMARTER – аутсорсинговый контактный центр. Мы разработали программный комплекс для автоматизации работы всего колл-центра, сейчас им пользуются 1800 наших сотрудников и подключённые к системе компании-партнёры. У нас есть сложный и интересный проект с утвержденным планом развития на год с множеством…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 44,
+    "fields": {
+        "url": "https://tyumen.hh.ru/vacancy/51798847?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+        "title": "Middle программист Python (информационная безопасность)",
+        "company": "QIWI",
+        "description": "Проектирование и разработка микросервисов на базе Python. Реализация API (REST) для микросервисов. Написание unit-тестов, интеграционных тестов. Работа по методологии...Знание Python 3. Опыт промышленной разработки на Python от 2 лет. Опыт быстрого погружения в проект. Опыт работы с Frontend. ",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 45,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/44027093/?search_id=1646742812153lfqp8quf1gh",
+        "title": "Data Engineer",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 46,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45058051/?search_id=1646742812153lfqp8quf1gh",
+        "title": "Python разработчик",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 47,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45492715/?search_id=1646742812153lfqp8quf1gh",
+        "title": "Devops-инженер",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 48,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45492786/?search_id=1646742812153lfqp8quf1gh",
+        "title": "Системный администратор",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 49,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45986825/?search_id=1646742812153lfqp8quf1gh",
+        "title": "Team Lead / Руководитель группы разработки",
+        "company": "Smarter",
+        "description": "SMARTER – аутсорсинговый контактный центр. Мы разработали программный комплекс для автоматизации работы всего колл-центра, сейчас им пользуются 1800 наших сотрудников и подключённые к системе компании-партнёры. У нас есть сложный и интересный проект с утвержденным планом развития на год с множеством…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 50,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46034942/?search_id=1646742812153lfqp8quf1gh",
+        "title": "Bigdata Engineer",
+        "company": "Объединенное Кредитное Бюро",
+        "description": "Разработка пайплайнов данных от обсуждения формата данных до написания ETL и формирования витрин данных; Поддержка совместной работы различных ETL механизмов без деградации их производительности; Проектирование и реализация хранения, обработки, очистки и обогащения данных; Реализация межсистемных интеграционных…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 51,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45864331/?search_id=1646742812153lfqp8quf1gh",
+        "title": "Data Engineer",
+        "company": "ПартКом, ООО",
+        "description": "Создание сложных отчетов; Поддержка существующих OLAP-кубов и ETL/ELT процессов, связанных с ними; Взаимодействие с заказчиками; Участие в развитии DWH, автоматизация подготовки витрин данных. Требования: Отличное знание SQL; SSAS, MSSQL, SSIS, SSRS, BI; Плюсом будет Python, колоночные/аналитические…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 52,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45584042/?search_id=1646742812153lfqp8quf1gh",
+        "title": "Cloud Infrastructure Lead / Ведущий инженер по инфраструктуре (СберЗвук Бизнес)",
+        "company": "СберЗвук",
+        "description": "Это что-то новое. СберЗвук для бизнеса — новое направление в аудиостриминге. Мы создаём музыкальную атмосферу в заведениях, чтобы бренды звучали красиво, увеличивали продажи и нравились людям. И для этого нам нужны профессионалы. О продукте. В нашем сервисе можно создать кастомный плейлист для любого…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 53,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45673102/?search_id=1646742812153lfqp8quf1gh",
+        "title": "Разработчик iOS",
+        "company": "ООО \"Центр Трансформации Бизнеса\"",
+        "description": "Развивать iOS приложения в команде разработчиков с заданной архитектурой. Использование Code Review и тестов в ходе разработки. Реализовывать продуктовые и технические решения согласно заданию. Оформление кода с файловой структурой и с учетом читабельности. Разработка программных модулей для обработки…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 54,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45817236/?search_id=1646742812153lfqp8quf1gh",
+        "title": "Senior Data Engineer",
+        "company": "СберМегаМаркет",
+        "description": "СберМегаМаркет — это большая дерзкая цель, крутая команда и стабильные инвестиции. Продукт, который мы создали — высоконагруженная онлайн-платформа, соединяющая товары и покупателей. Множество сервисов нашего продукта работают в гибридной инфраструктуре, которая постоянно расширяется и развивается…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 55,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45959130/?search_id=1646742812153lfqp8quf1gh",
+        "title": "Systems Engineer/SRE",
+        "company": "Okko",
+        "description": "Мультимедийный сервис Okko — один из крупнейших российских VoD-сервисов, лидер по платной модели монетизации. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Okko входит в экосистему Сбера. В…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 56,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45890625/?search_id=1646742812153lfqp8quf1gh",
+        "title": "Преподаватель курсов программирования (удаленно)",
+        "company": "Школа программирования TOKEN",
+        "description": "Школа программирования TOKEN - это место, где школьники под руководством преподавателей получают знания в современном и интересном формате, изучают программирование в игровой форме, знакомятся с востребованными профессиями будущего и прокачивают свои soft skills. Основные курсы школы: Minecraft, Scratch…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 57,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46203687/?search_id=1646742812153lfqp8quf1gh",
+        "title": "Риск-аналитик",
+        "company": "Микрокредитная компания Рубль.ру",
+        "description": "Разработка и оптимизация скоринговых моделей; Анализ переменных, разработка правил и групп на основе исследований переменных; Построение и проверка гипотез направленных на увеличение одобрения и выполнение показателей дефолтности; Выявление уязвимостей моделей; Разработка антифрод правил для пресечения…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 58,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45649680/?search_id=1646742812153lfqp8quf1gh",
+        "title": "Разработчик C++ в сервис Поиска",
+        "company": "2ГИС",
+        "description": "Привет! Мы в команде поиска разрабатываем поисковый движок для 2ГИС. Делаем его таким, чтобы наши пользователи находили всё точно, полно, быстро и на любом устройстве. Для этого мы проверяем работу поиска так, что тестов прогоняется за день больше, чем пользователи делают запросов на бою. Анализируем…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 59,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45465986/?search_id=1646742812153lfqp8quf1gh",
+        "title": "Разработчик на Python Back-end",
+        "company": "КОРУС Консалтинг СНГ",
+        "description": "СберКорус — цифровая платформа для компаний и физических лиц. Мы организуем любой бизнес-процесс без бумаги. В 2004 году компания “КОРУС Консалтинг СНГ” стала первым в России оператором электронного документооборота, а в 2012 году вошла в экосистему Сбера и сменила название, сохранив за собой все свои…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 60,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46087077/?search_id=1646742812153lfqp8quf1gh",
+        "title": "Специалист технической поддержки",
+        "company": "Тинькофф",
+        "description": "Поддержка пользователей высоконагруженной системы аналитики и мониторинга; Решение проблем в рамках своей компетенции; Взаимодействие со смежными подразделениями по решению технических вопросов; Требования: Опыт работы с технологиями и протоколами http, grpc, rest api; Понимание концепции работы клиент-сервер…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 61,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45996018/?search_id=1646742812153lfqp8quf1gh",
+        "title": "Python Developer",
+        "company": "ООО \"Ай-Ти Технолоджис\"",
+        "description": "Привет! Мы - IT-компания, ведем интересные и амбициозные проекты разной сложности. В нашей небольшой, но очень дружной команде освободилось место python backend разработчика на нашем главном и самом перспективном проекте. Мы ищем ответственного человека с жаждой знаний, который сможет занять это место…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 62,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45831061/?search_id=1646742812153lfqp8quf1gh",
+        "title": "Developer python",
+        "company": "ООО \"БИЗНЕС-ИННОВАЦИИ\"",
+        "description": "Поддерживать и оптимизировать текущие проекты, создавать новые; участвовать в проработке и улучшении архитектуры системы и API; использовать современные подходы, инструменты и технологии. Требования: экспертное владение Python, PostgreSql и MySQL; навыки создания Rest API; ответственность за качество…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 63,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/44770797/?search_id=1646742812153lfqp8quf1gh",
+        "title": "Backend-разработчик C/Go",
+        "company": "Rambler&Co",
+        "description": "Rambler&Co занимает первое место среди медиахолдингов России по размеру ежемесячной аудитории — свыше 39,5 млн человек (по данным Mediascope, Cross Web, H2 2021). В него входит «Лента.ру», «Газета.Ru», портал «Рамблер», «Чемпионат», «Секрет фирмы», WMJ.ru, Motor.ru, LiveJournal и ряд других медиаактивов…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 64,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45986915/?search_id=1646742812153lfqp8quf1gh",
+        "title": "Team Lead / Руководитель группы разработки",
+        "company": "Smarter",
+        "description": "SMARTER – аутсорсинговый контактный центр. Мы разработали программный комплекс для автоматизации работы всего колл-центра, сейчас им пользуются 1800 наших сотрудников и подключённые к системе компании-партнёры. У нас есть сложный и интересный проект с утвержденным планом развития на год с множеством…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 65,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/44027093/?search_id=1646745324643rkhbaql9kz",
+        "title": "Data Engineer",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 66,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45058051/?search_id=1646745324643rkhbaql9kz",
+        "title": "Python разработчик",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 67,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45492715/?search_id=1646745324643rkhbaql9kz",
+        "title": "Devops-инженер",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 68,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45492786/?search_id=1646745324643rkhbaql9kz",
+        "title": "Системный администратор",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 69,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45986825/?search_id=1646745324643rkhbaql9kz",
+        "title": "Team Lead / Руководитель группы разработки",
+        "company": "Smarter",
+        "description": "SMARTER – аутсорсинговый контактный центр. Мы разработали программный комплекс для автоматизации работы всего колл-центра, сейчас им пользуются 1800 наших сотрудников и подключённые к системе компании-партнёры. У нас есть сложный и интересный проект с утвержденным планом развития на год с множеством…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 70,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46034942/?search_id=1646745324643rkhbaql9kz",
+        "title": "Bigdata Engineer",
+        "company": "Объединенное Кредитное Бюро",
+        "description": "Разработка пайплайнов данных от обсуждения формата данных до написания ETL и формирования витрин данных; Поддержка совместной работы различных ETL механизмов без деградации их производительности; Проектирование и реализация хранения, обработки, очистки и обогащения данных; Реализация межсистемных интеграционных…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 71,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45864331/?search_id=1646745324643rkhbaql9kz",
+        "title": "Data Engineer",
+        "company": "ПартКом, ООО",
+        "description": "Создание сложных отчетов; Поддержка существующих OLAP-кубов и ETL/ELT процессов, связанных с ними; Взаимодействие с заказчиками; Участие в развитии DWH, автоматизация подготовки витрин данных. Требования: Отличное знание SQL; SSAS, MSSQL, SSIS, SSRS, BI; Плюсом будет Python, колоночные/аналитические…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 72,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45584042/?search_id=1646745324643rkhbaql9kz",
+        "title": "Cloud Infrastructure Lead / Ведущий инженер по инфраструктуре (СберЗвук Бизнес)",
+        "company": "СберЗвук",
+        "description": "Это что-то новое. СберЗвук для бизнеса — новое направление в аудиостриминге. Мы создаём музыкальную атмосферу в заведениях, чтобы бренды звучали красиво, увеличивали продажи и нравились людям. И для этого нам нужны профессионалы. О продукте. В нашем сервисе можно создать кастомный плейлист для любого…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 73,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45673102/?search_id=1646745324643rkhbaql9kz",
+        "title": "Разработчик iOS",
+        "company": "ООО \"Центр Трансформации Бизнеса\"",
+        "description": "Развивать iOS приложения в команде разработчиков с заданной архитектурой. Использование Code Review и тестов в ходе разработки. Реализовывать продуктовые и технические решения согласно заданию. Оформление кода с файловой структурой и с учетом читабельности. Разработка программных модулей для обработки…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 74,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45817236/?search_id=1646745324643rkhbaql9kz",
+        "title": "Senior Data Engineer",
+        "company": "СберМегаМаркет",
+        "description": "СберМегаМаркет — это большая дерзкая цель, крутая команда и стабильные инвестиции. Продукт, который мы создали — высоконагруженная онлайн-платформа, соединяющая товары и покупателей. Множество сервисов нашего продукта работают в гибридной инфраструктуре, которая постоянно расширяется и развивается…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 75,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45959130/?search_id=1646745324643rkhbaql9kz",
+        "title": "Systems Engineer/SRE",
+        "company": "Okko",
+        "description": "Мультимедийный сервис Okko — один из крупнейших российских VoD-сервисов, лидер по платной модели монетизации. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Okko входит в экосистему Сбера. В…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 76,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45890625/?search_id=1646745324643rkhbaql9kz",
+        "title": "Преподаватель курсов программирования (удаленно)",
+        "company": "Школа программирования TOKEN",
+        "description": "Школа программирования TOKEN - это место, где школьники под руководством преподавателей получают знания в современном и интересном формате, изучают программирование в игровой форме, знакомятся с востребованными профессиями будущего и прокачивают свои soft skills. Основные курсы школы: Minecraft, Scratch…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 77,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46203687/?search_id=1646745324643rkhbaql9kz",
+        "title": "Риск-аналитик",
+        "company": "Микрокредитная компания Рубль.ру",
+        "description": "Разработка и оптимизация скоринговых моделей; Анализ переменных, разработка правил и групп на основе исследований переменных; Построение и проверка гипотез направленных на увеличение одобрения и выполнение показателей дефолтности; Выявление уязвимостей моделей; Разработка антифрод правил для пресечения…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 78,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45649680/?search_id=1646745324643rkhbaql9kz",
+        "title": "Разработчик C++ в сервис Поиска",
+        "company": "2ГИС",
+        "description": "Привет! Мы в команде поиска разрабатываем поисковый движок для 2ГИС. Делаем его таким, чтобы наши пользователи находили всё точно, полно, быстро и на любом устройстве. Для этого мы проверяем работу поиска так, что тестов прогоняется за день больше, чем пользователи делают запросов на бою. Анализируем…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 79,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45465986/?search_id=1646745324643rkhbaql9kz",
+        "title": "Разработчик на Python Back-end",
+        "company": "КОРУС Консалтинг СНГ",
+        "description": "СберКорус — цифровая платформа для компаний и физических лиц. Мы организуем любой бизнес-процесс без бумаги. В 2004 году компания “КОРУС Консалтинг СНГ” стала первым в России оператором электронного документооборота, а в 2012 году вошла в экосистему Сбера и сменила название, сохранив за собой все свои…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 80,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46087077/?search_id=1646745324643rkhbaql9kz",
+        "title": "Специалист технической поддержки",
+        "company": "Тинькофф",
+        "description": "Поддержка пользователей высоконагруженной системы аналитики и мониторинга; Решение проблем в рамках своей компетенции; Взаимодействие со смежными подразделениями по решению технических вопросов; Требования: Опыт работы с технологиями и протоколами http, grpc, rest api; Понимание концепции работы клиент-сервер…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 81,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45996018/?search_id=1646745324643rkhbaql9kz",
+        "title": "Python Developer",
+        "company": "ООО \"Ай-Ти Технолоджис\"",
+        "description": "Привет! Мы - IT-компания, ведем интересные и амбициозные проекты разной сложности. В нашей небольшой, но очень дружной команде освободилось место python backend разработчика на нашем главном и самом перспективном проекте. Мы ищем ответственного человека с жаждой знаний, который сможет занять это место…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 82,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45831061/?search_id=1646745324643rkhbaql9kz",
+        "title": "Developer python",
+        "company": "ООО \"БИЗНЕС-ИННОВАЦИИ\"",
+        "description": "Поддерживать и оптимизировать текущие проекты, создавать новые; участвовать в проработке и улучшении архитектуры системы и API; использовать современные подходы, инструменты и технологии. Требования: экспертное владение Python, PostgreSql и MySQL; навыки создания Rest API; ответственность за качество…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 83,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/44770797/?search_id=1646745324643rkhbaql9kz",
+        "title": "Backend-разработчик C/Go",
+        "company": "Rambler&Co",
+        "description": "Rambler&Co занимает первое место среди медиахолдингов России по размеру ежемесячной аудитории — свыше 39,5 млн человек (по данным Mediascope, Cross Web, H2 2021). В него входит «Лента.ру», «Газета.Ru», портал «Рамблер», «Чемпионат», «Секрет фирмы», WMJ.ru, Motor.ru, LiveJournal и ряд других медиаактивов…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 84,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45986915/?search_id=1646745324643rkhbaql9kz",
+        "title": "Team Lead / Руководитель группы разработки",
+        "company": "Smarter",
+        "description": "SMARTER – аутсорсинговый контактный центр. Мы разработали программный комплекс для автоматизации работы всего колл-центра, сейчас им пользуются 1800 наших сотрудников и подключённые к системе компании-партнёры. У нас есть сложный и интересный проект с утвержденным планом развития на год с множеством…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 85,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/44027093/?search_id=1646745677688qqs5cdtd7fh",
+        "title": "Data Engineer",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 86,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45058051/?search_id=1646745677688qqs5cdtd7fh",
+        "title": "Python разработчик",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 87,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45492715/?search_id=1646745677688qqs5cdtd7fh",
+        "title": "Devops-инженер",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 88,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45492786/?search_id=1646745677688qqs5cdtd7fh",
+        "title": "Системный администратор",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 89,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45986825/?search_id=1646745677688qqs5cdtd7fh",
+        "title": "Team Lead / Руководитель группы разработки",
+        "company": "Smarter",
+        "description": "SMARTER – аутсорсинговый контактный центр. Мы разработали программный комплекс для автоматизации работы всего колл-центра, сейчас им пользуются 1800 наших сотрудников и подключённые к системе компании-партнёры. У нас есть сложный и интересный проект с утвержденным планом развития на год с множеством…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 90,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46034942/?search_id=1646745677688qqs5cdtd7fh",
+        "title": "Bigdata Engineer",
+        "company": "Объединенное Кредитное Бюро",
+        "description": "Разработка пайплайнов данных от обсуждения формата данных до написания ETL и формирования витрин данных; Поддержка совместной работы различных ETL механизмов без деградации их производительности; Проектирование и реализация хранения, обработки, очистки и обогащения данных; Реализация межсистемных интеграционных…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 91,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45864331/?search_id=1646745677688qqs5cdtd7fh",
+        "title": "Data Engineer",
+        "company": "ПартКом, ООО",
+        "description": "Создание сложных отчетов; Поддержка существующих OLAP-кубов и ETL/ELT процессов, связанных с ними; Взаимодействие с заказчиками; Участие в развитии DWH, автоматизация подготовки витрин данных. Требования: Отличное знание SQL; SSAS, MSSQL, SSIS, SSRS, BI; Плюсом будет Python, колоночные/аналитические…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 92,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45584042/?search_id=1646745677688qqs5cdtd7fh",
+        "title": "Cloud Infrastructure Lead / Ведущий инженер по инфраструктуре (СберЗвук Бизнес)",
+        "company": "СберЗвук",
+        "description": "Это что-то новое. СберЗвук для бизнеса — новое направление в аудиостриминге. Мы создаём музыкальную атмосферу в заведениях, чтобы бренды звучали красиво, увеличивали продажи и нравились людям. И для этого нам нужны профессионалы. О продукте. В нашем сервисе можно создать кастомный плейлист для любого…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 93,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45673102/?search_id=1646745677688qqs5cdtd7fh",
+        "title": "Разработчик iOS",
+        "company": "ООО \"Центр Трансформации Бизнеса\"",
+        "description": "Развивать iOS приложения в команде разработчиков с заданной архитектурой. Использование Code Review и тестов в ходе разработки. Реализовывать продуктовые и технические решения согласно заданию. Оформление кода с файловой структурой и с учетом читабельности. Разработка программных модулей для обработки…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 94,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45817236/?search_id=1646745677688qqs5cdtd7fh",
+        "title": "Senior Data Engineer",
+        "company": "СберМегаМаркет",
+        "description": "СберМегаМаркет — это большая дерзкая цель, крутая команда и стабильные инвестиции. Продукт, который мы создали — высоконагруженная онлайн-платформа, соединяющая товары и покупателей. Множество сервисов нашего продукта работают в гибридной инфраструктуре, которая постоянно расширяется и развивается…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 95,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45959130/?search_id=1646745677688qqs5cdtd7fh",
+        "title": "Systems Engineer/SRE",
+        "company": "Okko",
+        "description": "Мультимедийный сервис Okko — один из крупнейших российских VoD-сервисов, лидер по платной модели монетизации. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Okko входит в экосистему Сбера. В…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 96,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45890625/?search_id=1646745677688qqs5cdtd7fh",
+        "title": "Преподаватель курсов программирования (удаленно)",
+        "company": "Школа программирования TOKEN",
+        "description": "Школа программирования TOKEN - это место, где школьники под руководством преподавателей получают знания в современном и интересном формате, изучают программирование в игровой форме, знакомятся с востребованными профессиями будущего и прокачивают свои soft skills. Основные курсы школы: Minecraft, Scratch…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 97,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46203687/?search_id=1646745677688qqs5cdtd7fh",
+        "title": "Риск-аналитик",
+        "company": "Микрокредитная компания Рубль.ру",
+        "description": "Разработка и оптимизация скоринговых моделей; Анализ переменных, разработка правил и групп на основе исследований переменных; Построение и проверка гипотез направленных на увеличение одобрения и выполнение показателей дефолтности; Выявление уязвимостей моделей; Разработка антифрод правил для пресечения…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 98,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45649680/?search_id=1646745677688qqs5cdtd7fh",
+        "title": "Разработчик C++ в сервис Поиска",
+        "company": "2ГИС",
+        "description": "Привет! Мы в команде поиска разрабатываем поисковый движок для 2ГИС. Делаем его таким, чтобы наши пользователи находили всё точно, полно, быстро и на любом устройстве. Для этого мы проверяем работу поиска так, что тестов прогоняется за день больше, чем пользователи делают запросов на бою. Анализируем…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 99,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45465986/?search_id=1646745677688qqs5cdtd7fh",
+        "title": "Разработчик на Python Back-end",
+        "company": "КОРУС Консалтинг СНГ",
+        "description": "СберКорус — цифровая платформа для компаний и физических лиц. Мы организуем любой бизнес-процесс без бумаги. В 2004 году компания “КОРУС Консалтинг СНГ” стала первым в России оператором электронного документооборота, а в 2012 году вошла в экосистему Сбера и сменила название, сохранив за собой все свои…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 100,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46087077/?search_id=1646745677688qqs5cdtd7fh",
+        "title": "Специалист технической поддержки",
+        "company": "Тинькофф",
+        "description": "Поддержка пользователей высоконагруженной системы аналитики и мониторинга; Решение проблем в рамках своей компетенции; Взаимодействие со смежными подразделениями по решению технических вопросов; Требования: Опыт работы с технологиями и протоколами http, grpc, rest api; Понимание концепции работы клиент-сервер…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 101,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45996018/?search_id=1646745677688qqs5cdtd7fh",
+        "title": "Python Developer",
+        "company": "ООО \"Ай-Ти Технолоджис\"",
+        "description": "Привет! Мы - IT-компания, ведем интересные и амбициозные проекты разной сложности. В нашей небольшой, но очень дружной команде освободилось место python backend разработчика на нашем главном и самом перспективном проекте. Мы ищем ответственного человека с жаждой знаний, который сможет занять это место…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 102,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45831061/?search_id=1646745677688qqs5cdtd7fh",
+        "title": "Developer python",
+        "company": "ООО \"БИЗНЕС-ИННОВАЦИИ\"",
+        "description": "Поддерживать и оптимизировать текущие проекты, создавать новые; участвовать в проработке и улучшении архитектуры системы и API; использовать современные подходы, инструменты и технологии. Требования: экспертное владение Python, PostgreSql и MySQL; навыки создания Rest API; ответственность за качество…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 103,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/44770797/?search_id=1646745677688qqs5cdtd7fh",
+        "title": "Backend-разработчик C/Go",
+        "company": "Rambler&Co",
+        "description": "Rambler&Co занимает первое место среди медиахолдингов России по размеру ежемесячной аудитории — свыше 39,5 млн человек (по данным Mediascope, Cross Web, H2 2021). В него входит «Лента.ру», «Газета.Ru», портал «Рамблер», «Чемпионат», «Секрет фирмы», WMJ.ru, Motor.ru, LiveJournal и ряд других медиаактивов…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 104,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45986915/?search_id=1646745677688qqs5cdtd7fh",
+        "title": "Team Lead / Руководитель группы разработки",
+        "company": "Smarter",
+        "description": "SMARTER – аутсорсинговый контактный центр. Мы разработали программный комплекс для автоматизации работы всего колл-центра, сейчас им пользуются 1800 наших сотрудников и подключённые к системе компании-партнёры. У нас есть сложный и интересный проект с утвержденным планом развития на год с множеством…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 105,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/44027093/?search_id=16467464732989f594mmxbcu",
+        "title": "Data Engineer",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 106,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45058051/?search_id=16467464732989f594mmxbcu",
+        "title": "Python разработчик",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 107,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45492715/?search_id=16467464732989f594mmxbcu",
+        "title": "Devops-инженер",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 108,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45492786/?search_id=16467464732989f594mmxbcu",
+        "title": "Системный администратор",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 109,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45986825/?search_id=16467464732989f594mmxbcu",
+        "title": "Team Lead / Руководитель группы разработки",
+        "company": "Smarter",
+        "description": "SMARTER – аутсорсинговый контактный центр. Мы разработали программный комплекс для автоматизации работы всего колл-центра, сейчас им пользуются 1800 наших сотрудников и подключённые к системе компании-партнёры. У нас есть сложный и интересный проект с утвержденным планом развития на год с множеством…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 110,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46034942/?search_id=16467464732989f594mmxbcu",
+        "title": "Bigdata Engineer",
+        "company": "Объединенное Кредитное Бюро",
+        "description": "Разработка пайплайнов данных от обсуждения формата данных до написания ETL и формирования витрин данных; Поддержка совместной работы различных ETL механизмов без деградации их производительности; Проектирование и реализация хранения, обработки, очистки и обогащения данных; Реализация межсистемных интеграционных…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 111,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45864331/?search_id=16467464732989f594mmxbcu",
+        "title": "Data Engineer",
+        "company": "ПартКом, ООО",
+        "description": "Создание сложных отчетов; Поддержка существующих OLAP-кубов и ETL/ELT процессов, связанных с ними; Взаимодействие с заказчиками; Участие в развитии DWH, автоматизация подготовки витрин данных. Требования: Отличное знание SQL; SSAS, MSSQL, SSIS, SSRS, BI; Плюсом будет Python, колоночные/аналитические…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 112,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45584042/?search_id=16467464732989f594mmxbcu",
+        "title": "Cloud Infrastructure Lead / Ведущий инженер по инфраструктуре (СберЗвук Бизнес)",
+        "company": "СберЗвук",
+        "description": "Это что-то новое. СберЗвук для бизнеса — новое направление в аудиостриминге. Мы создаём музыкальную атмосферу в заведениях, чтобы бренды звучали красиво, увеличивали продажи и нравились людям. И для этого нам нужны профессионалы. О продукте. В нашем сервисе можно создать кастомный плейлист для любого…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 113,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45673102/?search_id=16467464732989f594mmxbcu",
+        "title": "Разработчик iOS",
+        "company": "ООО \"Центр Трансформации Бизнеса\"",
+        "description": "Развивать iOS приложения в команде разработчиков с заданной архитектурой. Использование Code Review и тестов в ходе разработки. Реализовывать продуктовые и технические решения согласно заданию. Оформление кода с файловой структурой и с учетом читабельности. Разработка программных модулей для обработки…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 114,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45817236/?search_id=16467464732989f594mmxbcu",
+        "title": "Senior Data Engineer",
+        "company": "СберМегаМаркет",
+        "description": "СберМегаМаркет — это большая дерзкая цель, крутая команда и стабильные инвестиции. Продукт, который мы создали — высоконагруженная онлайн-платформа, соединяющая товары и покупателей. Множество сервисов нашего продукта работают в гибридной инфраструктуре, которая постоянно расширяется и развивается…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 115,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45959130/?search_id=16467464732989f594mmxbcu",
+        "title": "Systems Engineer/SRE",
+        "company": "Okko",
+        "description": "Мультимедийный сервис Okko — один из крупнейших российских VoD-сервисов, лидер по платной модели монетизации. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Okko входит в экосистему Сбера. В…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 116,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45890625/?search_id=16467464732989f594mmxbcu",
+        "title": "Преподаватель курсов программирования (удаленно)",
+        "company": "Школа программирования TOKEN",
+        "description": "Школа программирования TOKEN - это место, где школьники под руководством преподавателей получают знания в современном и интересном формате, изучают программирование в игровой форме, знакомятся с востребованными профессиями будущего и прокачивают свои soft skills. Основные курсы школы: Minecraft, Scratch…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 117,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46203687/?search_id=16467464732989f594mmxbcu",
+        "title": "Риск-аналитик",
+        "company": "Микрокредитная компания Рубль.ру",
+        "description": "Разработка и оптимизация скоринговых моделей; Анализ переменных, разработка правил и групп на основе исследований переменных; Построение и проверка гипотез направленных на увеличение одобрения и выполнение показателей дефолтности; Выявление уязвимостей моделей; Разработка антифрод правил для пресечения…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 118,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45649680/?search_id=16467464732989f594mmxbcu",
+        "title": "Разработчик C++ в сервис Поиска",
+        "company": "2ГИС",
+        "description": "Привет! Мы в команде поиска разрабатываем поисковый движок для 2ГИС. Делаем его таким, чтобы наши пользователи находили всё точно, полно, быстро и на любом устройстве. Для этого мы проверяем работу поиска так, что тестов прогоняется за день больше, чем пользователи делают запросов на бою. Анализируем…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 119,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45465986/?search_id=16467464732989f594mmxbcu",
+        "title": "Разработчик на Python Back-end",
+        "company": "КОРУС Консалтинг СНГ",
+        "description": "СберКорус — цифровая платформа для компаний и физических лиц. Мы организуем любой бизнес-процесс без бумаги. В 2004 году компания “КОРУС Консалтинг СНГ” стала первым в России оператором электронного документооборота, а в 2012 году вошла в экосистему Сбера и сменила название, сохранив за собой все свои…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 120,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46087077/?search_id=16467464732989f594mmxbcu",
+        "title": "Специалист технической поддержки",
+        "company": "Тинькофф",
+        "description": "Поддержка пользователей высоконагруженной системы аналитики и мониторинга; Решение проблем в рамках своей компетенции; Взаимодействие со смежными подразделениями по решению технических вопросов; Требования: Опыт работы с технологиями и протоколами http, grpc, rest api; Понимание концепции работы клиент-сервер…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 121,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45996018/?search_id=16467464732989f594mmxbcu",
+        "title": "Python Developer",
+        "company": "ООО \"Ай-Ти Технолоджис\"",
+        "description": "Привет! Мы - IT-компания, ведем интересные и амбициозные проекты разной сложности. В нашей небольшой, но очень дружной команде освободилось место python backend разработчика на нашем главном и самом перспективном проекте. Мы ищем ответственного человека с жаждой знаний, который сможет занять это место…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 122,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45831061/?search_id=16467464732989f594mmxbcu",
+        "title": "Developer python",
+        "company": "ООО \"БИЗНЕС-ИННОВАЦИИ\"",
+        "description": "Поддерживать и оптимизировать текущие проекты, создавать новые; участвовать в проработке и улучшении архитектуры системы и API; использовать современные подходы, инструменты и технологии. Требования: экспертное владение Python, PostgreSql и MySQL; навыки создания Rest API; ответственность за качество…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 123,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/44770797/?search_id=16467464732989f594mmxbcu",
+        "title": "Backend-разработчик C/Go",
+        "company": "Rambler&Co",
+        "description": "Rambler&Co занимает первое место среди медиахолдингов России по размеру ежемесячной аудитории — свыше 39,5 млн человек (по данным Mediascope, Cross Web, H2 2021). В него входит «Лента.ру», «Газета.Ru», портал «Рамблер», «Чемпионат», «Секрет фирмы», WMJ.ru, Motor.ru, LiveJournal и ряд других медиаактивов…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 124,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45986915/?search_id=16467464732989f594mmxbcu",
+        "title": "Team Lead / Руководитель группы разработки",
+        "company": "Smarter",
+        "description": "SMARTER – аутсорсинговый контактный центр. Мы разработали программный комплекс для автоматизации работы всего колл-центра, сейчас им пользуются 1800 наших сотрудников и подключённые к системе компании-партнёры. У нас есть сложный и интересный проект с утвержденным планом развития на год с множеством…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 125,
+    "fields": {
+        "url": "https://tyumen.hh.ru/vacancy/52917030?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+        "title": "Разработчик Python",
+        "company": "Southbridge",
+        "description": "Backend: Ruby on Rails, PostgreSQL, но очень хотим писать новые сервисы на Python. Frontend: JS, Vue. Линтеры кода, мониторинг приложений...Необходимые навыки: - Отличное знание Python, его экосистемы. Опыт работы с асинхронными фреймворками. - Понимание что такое REST за пределами CRUD операций...",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 126,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/44027093/?search_id=1646746486105tnqvub9vgrs",
+        "title": "Data Engineer",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 127,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45058051/?search_id=1646746486105tnqvub9vgrs",
+        "title": "Python разработчик",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 128,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45492715/?search_id=1646746486105tnqvub9vgrs",
+        "title": "Devops-инженер",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 129,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45492786/?search_id=1646746486105tnqvub9vgrs",
+        "title": "Системный администратор",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 130,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45986825/?search_id=1646746486105tnqvub9vgrs",
+        "title": "Team Lead / Руководитель группы разработки",
+        "company": "Smarter",
+        "description": "SMARTER – аутсорсинговый контактный центр. Мы разработали программный комплекс для автоматизации работы всего колл-центра, сейчас им пользуются 1800 наших сотрудников и подключённые к системе компании-партнёры. У нас есть сложный и интересный проект с утвержденным планом развития на год с множеством…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 131,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46034942/?search_id=1646746486105tnqvub9vgrs",
+        "title": "Bigdata Engineer",
+        "company": "Объединенное Кредитное Бюро",
+        "description": "Разработка пайплайнов данных от обсуждения формата данных до написания ETL и формирования витрин данных; Поддержка совместной работы различных ETL механизмов без деградации их производительности; Проектирование и реализация хранения, обработки, очистки и обогащения данных; Реализация межсистемных интеграционных…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 132,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45864331/?search_id=1646746486105tnqvub9vgrs",
+        "title": "Data Engineer",
+        "company": "ПартКом, ООО",
+        "description": "Создание сложных отчетов; Поддержка существующих OLAP-кубов и ETL/ELT процессов, связанных с ними; Взаимодействие с заказчиками; Участие в развитии DWH, автоматизация подготовки витрин данных. Требования: Отличное знание SQL; SSAS, MSSQL, SSIS, SSRS, BI; Плюсом будет Python, колоночные/аналитические…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 133,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45584042/?search_id=1646746486105tnqvub9vgrs",
+        "title": "Cloud Infrastructure Lead / Ведущий инженер по инфраструктуре (СберЗвук Бизнес)",
+        "company": "СберЗвук",
+        "description": "Это что-то новое. СберЗвук для бизнеса — новое направление в аудиостриминге. Мы создаём музыкальную атмосферу в заведениях, чтобы бренды звучали красиво, увеличивали продажи и нравились людям. И для этого нам нужны профессионалы. О продукте. В нашем сервисе можно создать кастомный плейлист для любого…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 134,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45673102/?search_id=1646746486105tnqvub9vgrs",
+        "title": "Разработчик iOS",
+        "company": "ООО \"Центр Трансформации Бизнеса\"",
+        "description": "Развивать iOS приложения в команде разработчиков с заданной архитектурой. Использование Code Review и тестов в ходе разработки. Реализовывать продуктовые и технические решения согласно заданию. Оформление кода с файловой структурой и с учетом читабельности. Разработка программных модулей для обработки…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 135,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45817236/?search_id=1646746486105tnqvub9vgrs",
+        "title": "Senior Data Engineer",
+        "company": "СберМегаМаркет",
+        "description": "СберМегаМаркет — это большая дерзкая цель, крутая команда и стабильные инвестиции. Продукт, который мы создали — высоконагруженная онлайн-платформа, соединяющая товары и покупателей. Множество сервисов нашего продукта работают в гибридной инфраструктуре, которая постоянно расширяется и развивается…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 136,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45959130/?search_id=1646746486105tnqvub9vgrs",
+        "title": "Systems Engineer/SRE",
+        "company": "Okko",
+        "description": "Мультимедийный сервис Okko — один из крупнейших российских VoD-сервисов, лидер по платной модели монетизации. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Okko входит в экосистему Сбера. В…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 137,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45890625/?search_id=1646746486105tnqvub9vgrs",
+        "title": "Преподаватель курсов программирования (удаленно)",
+        "company": "Школа программирования TOKEN",
+        "description": "Школа программирования TOKEN - это место, где школьники под руководством преподавателей получают знания в современном и интересном формате, изучают программирование в игровой форме, знакомятся с востребованными профессиями будущего и прокачивают свои soft skills. Основные курсы школы: Minecraft, Scratch…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 138,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46203687/?search_id=1646746486105tnqvub9vgrs",
+        "title": "Риск-аналитик",
+        "company": "Микрокредитная компания Рубль.ру",
+        "description": "Разработка и оптимизация скоринговых моделей; Анализ переменных, разработка правил и групп на основе исследований переменных; Построение и проверка гипотез направленных на увеличение одобрения и выполнение показателей дефолтности; Выявление уязвимостей моделей; Разработка антифрод правил для пресечения…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 139,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45649680/?search_id=1646746486105tnqvub9vgrs",
+        "title": "Разработчик C++ в сервис Поиска",
+        "company": "2ГИС",
+        "description": "Привет! Мы в команде поиска разрабатываем поисковый движок для 2ГИС. Делаем его таким, чтобы наши пользователи находили всё точно, полно, быстро и на любом устройстве. Для этого мы проверяем работу поиска так, что тестов прогоняется за день больше, чем пользователи делают запросов на бою. Анализируем…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 140,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45465986/?search_id=1646746486105tnqvub9vgrs",
+        "title": "Разработчик на Python Back-end",
+        "company": "КОРУС Консалтинг СНГ",
+        "description": "СберКорус — цифровая платформа для компаний и физических лиц. Мы организуем любой бизнес-процесс без бумаги. В 2004 году компания “КОРУС Консалтинг СНГ” стала первым в России оператором электронного документооборота, а в 2012 году вошла в экосистему Сбера и сменила название, сохранив за собой все свои…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 141,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46087077/?search_id=1646746486105tnqvub9vgrs",
+        "title": "Специалист технической поддержки",
+        "company": "Тинькофф",
+        "description": "Поддержка пользователей высоконагруженной системы аналитики и мониторинга; Решение проблем в рамках своей компетенции; Взаимодействие со смежными подразделениями по решению технических вопросов; Требования: Опыт работы с технологиями и протоколами http, grpc, rest api; Понимание концепции работы клиент-сервер…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 142,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45996018/?search_id=1646746486105tnqvub9vgrs",
+        "title": "Python Developer",
+        "company": "ООО \"Ай-Ти Технолоджис\"",
+        "description": "Привет! Мы - IT-компания, ведем интересные и амбициозные проекты разной сложности. В нашей небольшой, но очень дружной команде освободилось место python backend разработчика на нашем главном и самом перспективном проекте. Мы ищем ответственного человека с жаждой знаний, который сможет занять это место…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 143,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45831061/?search_id=1646746486105tnqvub9vgrs",
+        "title": "Developer python",
+        "company": "ООО \"БИЗНЕС-ИННОВАЦИИ\"",
+        "description": "Поддерживать и оптимизировать текущие проекты, создавать новые; участвовать в проработке и улучшении архитектуры системы и API; использовать современные подходы, инструменты и технологии. Требования: экспертное владение Python, PostgreSql и MySQL; навыки создания Rest API; ответственность за качество…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 144,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/44770797/?search_id=1646746486105tnqvub9vgrs",
+        "title": "Backend-разработчик C/Go",
+        "company": "Rambler&Co",
+        "description": "Rambler&Co занимает первое место среди медиахолдингов России по размеру ежемесячной аудитории — свыше 39,5 млн человек (по данным Mediascope, Cross Web, H2 2021). В него входит «Лента.ру», «Газета.Ru», портал «Рамблер», «Чемпионат», «Секрет фирмы», WMJ.ru, Motor.ru, LiveJournal и ряд других медиаактивов…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 145,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45986915/?search_id=1646746486105tnqvub9vgrs",
+        "title": "Team Lead / Руководитель группы разработки",
+        "company": "Smarter",
+        "description": "SMARTER – аутсорсинговый контактный центр. Мы разработали программный комплекс для автоматизации работы всего колл-центра, сейчас им пользуются 1800 наших сотрудников и подключённые к системе компании-партнёры. У нас есть сложный и интересный проект с утвержденным планом развития на год с множеством…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 146,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/44027093/?search_id=1646746496419awvboc5jp59",
+        "title": "Data Engineer",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 147,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45058051/?search_id=1646746496419awvboc5jp59",
+        "title": "Python разработчик",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 148,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45492715/?search_id=1646746496419awvboc5jp59",
+        "title": "Devops-инженер",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 149,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45492786/?search_id=1646746496419awvboc5jp59",
+        "title": "Системный администратор",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 150,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45986825/?search_id=1646746496419awvboc5jp59",
+        "title": "Team Lead / Руководитель группы разработки",
+        "company": "Smarter",
+        "description": "SMARTER – аутсорсинговый контактный центр. Мы разработали программный комплекс для автоматизации работы всего колл-центра, сейчас им пользуются 1800 наших сотрудников и подключённые к системе компании-партнёры. У нас есть сложный и интересный проект с утвержденным планом развития на год с множеством…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 151,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46034942/?search_id=1646746496419awvboc5jp59",
+        "title": "Bigdata Engineer",
+        "company": "Объединенное Кредитное Бюро",
+        "description": "Разработка пайплайнов данных от обсуждения формата данных до написания ETL и формирования витрин данных; Поддержка совместной работы различных ETL механизмов без деградации их производительности; Проектирование и реализация хранения, обработки, очистки и обогащения данных; Реализация межсистемных интеграционных…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 152,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45864331/?search_id=1646746496419awvboc5jp59",
+        "title": "Data Engineer",
+        "company": "ПартКом, ООО",
+        "description": "Создание сложных отчетов; Поддержка существующих OLAP-кубов и ETL/ELT процессов, связанных с ними; Взаимодействие с заказчиками; Участие в развитии DWH, автоматизация подготовки витрин данных. Требования: Отличное знание SQL; SSAS, MSSQL, SSIS, SSRS, BI; Плюсом будет Python, колоночные/аналитические…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 153,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45584042/?search_id=1646746496419awvboc5jp59",
+        "title": "Cloud Infrastructure Lead / Ведущий инженер по инфраструктуре (СберЗвук Бизнес)",
+        "company": "СберЗвук",
+        "description": "Это что-то новое. СберЗвук для бизнеса — новое направление в аудиостриминге. Мы создаём музыкальную атмосферу в заведениях, чтобы бренды звучали красиво, увеличивали продажи и нравились людям. И для этого нам нужны профессионалы. О продукте. В нашем сервисе можно создать кастомный плейлист для любого…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 154,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45673102/?search_id=1646746496419awvboc5jp59",
+        "title": "Разработчик iOS",
+        "company": "ООО \"Центр Трансформации Бизнеса\"",
+        "description": "Развивать iOS приложения в команде разработчиков с заданной архитектурой. Использование Code Review и тестов в ходе разработки. Реализовывать продуктовые и технические решения согласно заданию. Оформление кода с файловой структурой и с учетом читабельности. Разработка программных модулей для обработки…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 155,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45817236/?search_id=1646746496419awvboc5jp59",
+        "title": "Senior Data Engineer",
+        "company": "СберМегаМаркет",
+        "description": "СберМегаМаркет — это большая дерзкая цель, крутая команда и стабильные инвестиции. Продукт, который мы создали — высоконагруженная онлайн-платформа, соединяющая товары и покупателей. Множество сервисов нашего продукта работают в гибридной инфраструктуре, которая постоянно расширяется и развивается…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 156,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45959130/?search_id=1646746496419awvboc5jp59",
+        "title": "Systems Engineer/SRE",
+        "company": "Okko",
+        "description": "Мультимедийный сервис Okko — один из крупнейших российских VoD-сервисов, лидер по платной модели монетизации. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Okko входит в экосистему Сбера. В…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 157,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45890625/?search_id=1646746496419awvboc5jp59",
+        "title": "Преподаватель курсов программирования (удаленно)",
+        "company": "Школа программирования TOKEN",
+        "description": "Школа программирования TOKEN - это место, где школьники под руководством преподавателей получают знания в современном и интересном формате, изучают программирование в игровой форме, знакомятся с востребованными профессиями будущего и прокачивают свои soft skills. Основные курсы школы: Minecraft, Scratch…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 158,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46203687/?search_id=1646746496419awvboc5jp59",
+        "title": "Риск-аналитик",
+        "company": "Микрокредитная компания Рубль.ру",
+        "description": "Разработка и оптимизация скоринговых моделей; Анализ переменных, разработка правил и групп на основе исследований переменных; Построение и проверка гипотез направленных на увеличение одобрения и выполнение показателей дефолтности; Выявление уязвимостей моделей; Разработка антифрод правил для пресечения…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 159,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45649680/?search_id=1646746496419awvboc5jp59",
+        "title": "Разработчик C++ в сервис Поиска",
+        "company": "2ГИС",
+        "description": "Привет! Мы в команде поиска разрабатываем поисковый движок для 2ГИС. Делаем его таким, чтобы наши пользователи находили всё точно, полно, быстро и на любом устройстве. Для этого мы проверяем работу поиска так, что тестов прогоняется за день больше, чем пользователи делают запросов на бою. Анализируем…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 160,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45465986/?search_id=1646746496419awvboc5jp59",
+        "title": "Разработчик на Python Back-end",
+        "company": "КОРУС Консалтинг СНГ",
+        "description": "СберКорус — цифровая платформа для компаний и физических лиц. Мы организуем любой бизнес-процесс без бумаги. В 2004 году компания “КОРУС Консалтинг СНГ” стала первым в России оператором электронного документооборота, а в 2012 году вошла в экосистему Сбера и сменила название, сохранив за собой все свои…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 161,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46087077/?search_id=1646746496419awvboc5jp59",
+        "title": "Специалист технической поддержки",
+        "company": "Тинькофф",
+        "description": "Поддержка пользователей высоконагруженной системы аналитики и мониторинга; Решение проблем в рамках своей компетенции; Взаимодействие со смежными подразделениями по решению технических вопросов; Требования: Опыт работы с технологиями и протоколами http, grpc, rest api; Понимание концепции работы клиент-сервер…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 162,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45996018/?search_id=1646746496419awvboc5jp59",
+        "title": "Python Developer",
+        "company": "ООО \"Ай-Ти Технолоджис\"",
+        "description": "Привет! Мы - IT-компания, ведем интересные и амбициозные проекты разной сложности. В нашей небольшой, но очень дружной команде освободилось место python backend разработчика на нашем главном и самом перспективном проекте. Мы ищем ответственного человека с жаждой знаний, который сможет занять это место…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 163,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45831061/?search_id=1646746496419awvboc5jp59",
+        "title": "Developer python",
+        "company": "ООО \"БИЗНЕС-ИННОВАЦИИ\"",
+        "description": "Поддерживать и оптимизировать текущие проекты, создавать новые; участвовать в проработке и улучшении архитектуры системы и API; использовать современные подходы, инструменты и технологии. Требования: экспертное владение Python, PostgreSql и MySQL; навыки создания Rest API; ответственность за качество…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 164,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/44770797/?search_id=1646746496419awvboc5jp59",
+        "title": "Backend-разработчик C/Go",
+        "company": "Rambler&Co",
+        "description": "Rambler&Co занимает первое место среди медиахолдингов России по размеру ежемесячной аудитории — свыше 39,5 млн человек (по данным Mediascope, Cross Web, H2 2021). В него входит «Лента.ру», «Газета.Ru», портал «Рамблер», «Чемпионат», «Секрет фирмы», WMJ.ru, Motor.ru, LiveJournal и ряд других медиаактивов…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 165,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45986915/?search_id=1646746496419awvboc5jp59",
+        "title": "Team Lead / Руководитель группы разработки",
+        "company": "Smarter",
+        "description": "SMARTER – аутсорсинговый контактный центр. Мы разработали программный комплекс для автоматизации работы всего колл-центра, сейчас им пользуются 1800 наших сотрудников и подключённые к системе компании-партнёры. У нас есть сложный и интересный проект с утвержденным планом развития на год с множеством…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 166,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/44027093/?search_id=16467465144052yuao81w16s",
+        "title": "Data Engineer",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 167,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45058051/?search_id=16467465144052yuao81w16s",
+        "title": "Python разработчик",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 168,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45492715/?search_id=16467465144052yuao81w16s",
+        "title": "Devops-инженер",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 169,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45492786/?search_id=16467465144052yuao81w16s",
+        "title": "Системный администратор",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 170,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45986825/?search_id=16467465144052yuao81w16s",
+        "title": "Team Lead / Руководитель группы разработки",
+        "company": "Smarter",
+        "description": "SMARTER – аутсорсинговый контактный центр. Мы разработали программный комплекс для автоматизации работы всего колл-центра, сейчас им пользуются 1800 наших сотрудников и подключённые к системе компании-партнёры. У нас есть сложный и интересный проект с утвержденным планом развития на год с множеством…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 171,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46034942/?search_id=16467465144052yuao81w16s",
+        "title": "Bigdata Engineer",
+        "company": "Объединенное Кредитное Бюро",
+        "description": "Разработка пайплайнов данных от обсуждения формата данных до написания ETL и формирования витрин данных; Поддержка совместной работы различных ETL механизмов без деградации их производительности; Проектирование и реализация хранения, обработки, очистки и обогащения данных; Реализация межсистемных интеграционных…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 172,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45864331/?search_id=16467465144052yuao81w16s",
+        "title": "Data Engineer",
+        "company": "ПартКом, ООО",
+        "description": "Создание сложных отчетов; Поддержка существующих OLAP-кубов и ETL/ELT процессов, связанных с ними; Взаимодействие с заказчиками; Участие в развитии DWH, автоматизация подготовки витрин данных. Требования: Отличное знание SQL; SSAS, MSSQL, SSIS, SSRS, BI; Плюсом будет Python, колоночные/аналитические…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 173,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45584042/?search_id=16467465144052yuao81w16s",
+        "title": "Cloud Infrastructure Lead / Ведущий инженер по инфраструктуре (СберЗвук Бизнес)",
+        "company": "СберЗвук",
+        "description": "Это что-то новое. СберЗвук для бизнеса — новое направление в аудиостриминге. Мы создаём музыкальную атмосферу в заведениях, чтобы бренды звучали красиво, увеличивали продажи и нравились людям. И для этого нам нужны профессионалы. О продукте. В нашем сервисе можно создать кастомный плейлист для любого…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 174,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45673102/?search_id=16467465144052yuao81w16s",
+        "title": "Разработчик iOS",
+        "company": "ООО \"Центр Трансформации Бизнеса\"",
+        "description": "Развивать iOS приложения в команде разработчиков с заданной архитектурой. Использование Code Review и тестов в ходе разработки. Реализовывать продуктовые и технические решения согласно заданию. Оформление кода с файловой структурой и с учетом читабельности. Разработка программных модулей для обработки…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 175,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45817236/?search_id=16467465144052yuao81w16s",
+        "title": "Senior Data Engineer",
+        "company": "СберМегаМаркет",
+        "description": "СберМегаМаркет — это большая дерзкая цель, крутая команда и стабильные инвестиции. Продукт, который мы создали — высоконагруженная онлайн-платформа, соединяющая товары и покупателей. Множество сервисов нашего продукта работают в гибридной инфраструктуре, которая постоянно расширяется и развивается…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 176,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45959130/?search_id=16467465144052yuao81w16s",
+        "title": "Systems Engineer/SRE",
+        "company": "Okko",
+        "description": "Мультимедийный сервис Okko — один из крупнейших российских VoD-сервисов, лидер по платной модели монетизации. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Okko входит в экосистему Сбера. В…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 177,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45890625/?search_id=16467465144052yuao81w16s",
+        "title": "Преподаватель курсов программирования (удаленно)",
+        "company": "Школа программирования TOKEN",
+        "description": "Школа программирования TOKEN - это место, где школьники под руководством преподавателей получают знания в современном и интересном формате, изучают программирование в игровой форме, знакомятся с востребованными профессиями будущего и прокачивают свои soft skills. Основные курсы школы: Minecraft, Scratch…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 178,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46203687/?search_id=16467465144052yuao81w16s",
+        "title": "Риск-аналитик",
+        "company": "Микрокредитная компания Рубль.ру",
+        "description": "Разработка и оптимизация скоринговых моделей; Анализ переменных, разработка правил и групп на основе исследований переменных; Построение и проверка гипотез направленных на увеличение одобрения и выполнение показателей дефолтности; Выявление уязвимостей моделей; Разработка антифрод правил для пресечения…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 179,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45649680/?search_id=16467465144052yuao81w16s",
+        "title": "Разработчик C++ в сервис Поиска",
+        "company": "2ГИС",
+        "description": "Привет! Мы в команде поиска разрабатываем поисковый движок для 2ГИС. Делаем его таким, чтобы наши пользователи находили всё точно, полно, быстро и на любом устройстве. Для этого мы проверяем работу поиска так, что тестов прогоняется за день больше, чем пользователи делают запросов на бою. Анализируем…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 180,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45465986/?search_id=16467465144052yuao81w16s",
+        "title": "Разработчик на Python Back-end",
+        "company": "КОРУС Консалтинг СНГ",
+        "description": "СберКорус — цифровая платформа для компаний и физических лиц. Мы организуем любой бизнес-процесс без бумаги. В 2004 году компания “КОРУС Консалтинг СНГ” стала первым в России оператором электронного документооборота, а в 2012 году вошла в экосистему Сбера и сменила название, сохранив за собой все свои…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 181,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46087077/?search_id=16467465144052yuao81w16s",
+        "title": "Специалист технической поддержки",
+        "company": "Тинькофф",
+        "description": "Поддержка пользователей высоконагруженной системы аналитики и мониторинга; Решение проблем в рамках своей компетенции; Взаимодействие со смежными подразделениями по решению технических вопросов; Требования: Опыт работы с технологиями и протоколами http, grpc, rest api; Понимание концепции работы клиент-сервер…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 182,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45996018/?search_id=16467465144052yuao81w16s",
+        "title": "Python Developer",
+        "company": "ООО \"Ай-Ти Технолоджис\"",
+        "description": "Привет! Мы - IT-компания, ведем интересные и амбициозные проекты разной сложности. В нашей небольшой, но очень дружной команде освободилось место python backend разработчика на нашем главном и самом перспективном проекте. Мы ищем ответственного человека с жаждой знаний, который сможет занять это место…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 183,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45831061/?search_id=16467465144052yuao81w16s",
+        "title": "Developer python",
+        "company": "ООО \"БИЗНЕС-ИННОВАЦИИ\"",
+        "description": "Поддерживать и оптимизировать текущие проекты, создавать новые; участвовать в проработке и улучшении архитектуры системы и API; использовать современные подходы, инструменты и технологии. Требования: экспертное владение Python, PostgreSql и MySQL; навыки создания Rest API; ответственность за качество…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 184,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/44770797/?search_id=16467465144052yuao81w16s",
+        "title": "Backend-разработчик C/Go",
+        "company": "Rambler&Co",
+        "description": "Rambler&Co занимает первое место среди медиахолдингов России по размеру ежемесячной аудитории — свыше 39,5 млн человек (по данным Mediascope, Cross Web, H2 2021). В него входит «Лента.ру», «Газета.Ru», портал «Рамблер», «Чемпионат», «Секрет фирмы», WMJ.ru, Motor.ru, LiveJournal и ряд других медиаактивов…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 185,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45986915/?search_id=16467465144052yuao81w16s",
+        "title": "Team Lead / Руководитель группы разработки",
+        "company": "Smarter",
+        "description": "SMARTER – аутсорсинговый контактный центр. Мы разработали программный комплекс для автоматизации работы всего колл-центра, сейчас им пользуются 1800 наших сотрудников и подключённые к системе компании-партнёры. У нас есть сложный и интересный проект с утвержденным планом развития на год с множеством…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 186,
+    "fields": {
+        "url": "https://tyumen.hh.ru/vacancy/53338019?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+        "title": "Lead Python Developer в международный проект про здоровье (удаленно)",
+        "company": "Welltory",
+        "description": "Мониторинг производительности (APM) и ошибок с помощью Sentry. Качество: линтеры и форматеры кода, тесты, документация. Мало legacy-кода, компания в...",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 187,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/44027093/?search_id=1646746618598osrd98ool9m",
+        "title": "Data Engineer",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 188,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45058051/?search_id=1646746618598osrd98ool9m",
+        "title": "Python разработчик",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 189,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45492715/?search_id=1646746618598osrd98ool9m",
+        "title": "Devops-инженер",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 190,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45492786/?search_id=1646746618598osrd98ool9m",
+        "title": "Системный администратор",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 191,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45986825/?search_id=1646746618598osrd98ool9m",
+        "title": "Team Lead / Руководитель группы разработки",
+        "company": "Smarter",
+        "description": "SMARTER – аутсорсинговый контактный центр. Мы разработали программный комплекс для автоматизации работы всего колл-центра, сейчас им пользуются 1800 наших сотрудников и подключённые к системе компании-партнёры. У нас есть сложный и интересный проект с утвержденным планом развития на год с множеством…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 192,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46034942/?search_id=1646746618598osrd98ool9m",
+        "title": "Bigdata Engineer",
+        "company": "Объединенное Кредитное Бюро",
+        "description": "Разработка пайплайнов данных от обсуждения формата данных до написания ETL и формирования витрин данных; Поддержка совместной работы различных ETL механизмов без деградации их производительности; Проектирование и реализация хранения, обработки, очистки и обогащения данных; Реализация межсистемных интеграционных…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 193,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45864331/?search_id=1646746618598osrd98ool9m",
+        "title": "Data Engineer",
+        "company": "ПартКом, ООО",
+        "description": "Создание сложных отчетов; Поддержка существующих OLAP-кубов и ETL/ELT процессов, связанных с ними; Взаимодействие с заказчиками; Участие в развитии DWH, автоматизация подготовки витрин данных. Требования: Отличное знание SQL; SSAS, MSSQL, SSIS, SSRS, BI; Плюсом будет Python, колоночные/аналитические…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 194,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45584042/?search_id=1646746618598osrd98ool9m",
+        "title": "Cloud Infrastructure Lead / Ведущий инженер по инфраструктуре (СберЗвук Бизнес)",
+        "company": "СберЗвук",
+        "description": "Это что-то новое. СберЗвук для бизнеса — новое направление в аудиостриминге. Мы создаём музыкальную атмосферу в заведениях, чтобы бренды звучали красиво, увеличивали продажи и нравились людям. И для этого нам нужны профессионалы. О продукте. В нашем сервисе можно создать кастомный плейлист для любого…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 195,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45673102/?search_id=1646746618598osrd98ool9m",
+        "title": "Разработчик iOS",
+        "company": "ООО \"Центр Трансформации Бизнеса\"",
+        "description": "Развивать iOS приложения в команде разработчиков с заданной архитектурой. Использование Code Review и тестов в ходе разработки. Реализовывать продуктовые и технические решения согласно заданию. Оформление кода с файловой структурой и с учетом читабельности. Разработка программных модулей для обработки…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 196,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45817236/?search_id=1646746618598osrd98ool9m",
+        "title": "Senior Data Engineer",
+        "company": "СберМегаМаркет",
+        "description": "СберМегаМаркет — это большая дерзкая цель, крутая команда и стабильные инвестиции. Продукт, который мы создали — высоконагруженная онлайн-платформа, соединяющая товары и покупателей. Множество сервисов нашего продукта работают в гибридной инфраструктуре, которая постоянно расширяется и развивается…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 197,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45959130/?search_id=1646746618598osrd98ool9m",
+        "title": "Systems Engineer/SRE",
+        "company": "Okko",
+        "description": "Мультимедийный сервис Okko — один из крупнейших российских VoD-сервисов, лидер по платной модели монетизации. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Okko входит в экосистему Сбера. В…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 198,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45890625/?search_id=1646746618598osrd98ool9m",
+        "title": "Преподаватель курсов программирования (удаленно)",
+        "company": "Школа программирования TOKEN",
+        "description": "Школа программирования TOKEN - это место, где школьники под руководством преподавателей получают знания в современном и интересном формате, изучают программирование в игровой форме, знакомятся с востребованными профессиями будущего и прокачивают свои soft skills. Основные курсы школы: Minecraft, Scratch…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 199,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46203687/?search_id=1646746618598osrd98ool9m",
+        "title": "Риск-аналитик",
+        "company": "Микрокредитная компания Рубль.ру",
+        "description": "Разработка и оптимизация скоринговых моделей; Анализ переменных, разработка правил и групп на основе исследований переменных; Построение и проверка гипотез направленных на увеличение одобрения и выполнение показателей дефолтности; Выявление уязвимостей моделей; Разработка антифрод правил для пресечения…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 200,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45649680/?search_id=1646746618598osrd98ool9m",
+        "title": "Разработчик C++ в сервис Поиска",
+        "company": "2ГИС",
+        "description": "Привет! Мы в команде поиска разрабатываем поисковый движок для 2ГИС. Делаем его таким, чтобы наши пользователи находили всё точно, полно, быстро и на любом устройстве. Для этого мы проверяем работу поиска так, что тестов прогоняется за день больше, чем пользователи делают запросов на бою. Анализируем…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 201,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45465986/?search_id=1646746618598osrd98ool9m",
+        "title": "Разработчик на Python Back-end",
+        "company": "КОРУС Консалтинг СНГ",
+        "description": "СберКорус — цифровая платформа для компаний и физических лиц. Мы организуем любой бизнес-процесс без бумаги. В 2004 году компания “КОРУС Консалтинг СНГ” стала первым в России оператором электронного документооборота, а в 2012 году вошла в экосистему Сбера и сменила название, сохранив за собой все свои…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 202,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46087077/?search_id=1646746618598osrd98ool9m",
+        "title": "Специалист технической поддержки",
+        "company": "Тинькофф",
+        "description": "Поддержка пользователей высоконагруженной системы аналитики и мониторинга; Решение проблем в рамках своей компетенции; Взаимодействие со смежными подразделениями по решению технических вопросов; Требования: Опыт работы с технологиями и протоколами http, grpc, rest api; Понимание концепции работы клиент-сервер…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 203,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45996018/?search_id=1646746618598osrd98ool9m",
+        "title": "Python Developer",
+        "company": "ООО \"Ай-Ти Технолоджис\"",
+        "description": "Привет! Мы - IT-компания, ведем интересные и амбициозные проекты разной сложности. В нашей небольшой, но очень дружной команде освободилось место python backend разработчика на нашем главном и самом перспективном проекте. Мы ищем ответственного человека с жаждой знаний, который сможет занять это место…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 204,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45831061/?search_id=1646746618598osrd98ool9m",
+        "title": "Developer python",
+        "company": "ООО \"БИЗНЕС-ИННОВАЦИИ\"",
+        "description": "Поддерживать и оптимизировать текущие проекты, создавать новые; участвовать в проработке и улучшении архитектуры системы и API; использовать современные подходы, инструменты и технологии. Требования: экспертное владение Python, PostgreSql и MySQL; навыки создания Rest API; ответственность за качество…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 205,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/44770797/?search_id=1646746618598osrd98ool9m",
+        "title": "Backend-разработчик C/Go",
+        "company": "Rambler&Co",
+        "description": "Rambler&Co занимает первое место среди медиахолдингов России по размеру ежемесячной аудитории — свыше 39,5 млн человек (по данным Mediascope, Cross Web, H2 2021). В него входит «Лента.ру», «Газета.Ru», портал «Рамблер», «Чемпионат», «Секрет фирмы», WMJ.ru, Motor.ru, LiveJournal и ряд других медиаактивов…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 206,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45986915/?search_id=1646746618598osrd98ool9m",
+        "title": "Team Lead / Руководитель группы разработки",
+        "company": "Smarter",
+        "description": "SMARTER – аутсорсинговый контактный центр. Мы разработали программный комплекс для автоматизации работы всего колл-центра, сейчас им пользуются 1800 наших сотрудников и подключённые к системе компании-партнёры. У нас есть сложный и интересный проект с утвержденным планом развития на год с множеством…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 207,
+    "fields": {
+        "url": "https://tyumen.hh.ru/vacancy/53283673?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+        "title": "Руководитель отдела разработки DWH",
+        "company": "Юрент",
+        "description": "Построение и поддержка DWH компании, разработка ETL процессов поставки данных. Выбор и внедрение BI системы для различных функций бизнеса. Высшее техническое образование. Уверенное знание Python. Отличное владение SQL. Опыт построения DWH, проектирование моделей данных слоев хранилища и витрин. ",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 208,
+    "fields": {
+        "url": "https://tyumen.hh.ru/vacancy/51000391?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+        "title": "Разработчик на С под Linux (Data Plane)",
+        "company": "ООО Айдеко",
+        "description": "Провести исследования и тестирование производительности технологий высокоскоростной обработки трафика. Провести исследования и тестирование производительности готовых проектов для разработки Data Plane. Опыт разработки на С под ОС Linux. Опыт многопоточной разработки. Умение разбираться в чужом коде. Опыт разработки на Python. ",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 209,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/44027093/?search_id=1646746777577s7oizyyjx2r",
+        "title": "Data Engineer",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 210,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45058051/?search_id=1646746777577s7oizyyjx2r",
+        "title": "Python разработчик",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 211,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45492715/?search_id=1646746777577s7oizyyjx2r",
+        "title": "Devops-инженер",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 212,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45492786/?search_id=1646746777577s7oizyyjx2r",
+        "title": "Системный администратор",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 213,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45986825/?search_id=1646746777577s7oizyyjx2r",
+        "title": "Team Lead / Руководитель группы разработки",
+        "company": "Smarter",
+        "description": "SMARTER – аутсорсинговый контактный центр. Мы разработали программный комплекс для автоматизации работы всего колл-центра, сейчас им пользуются 1800 наших сотрудников и подключённые к системе компании-партнёры. У нас есть сложный и интересный проект с утвержденным планом развития на год с множеством…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 214,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46034942/?search_id=1646746777577s7oizyyjx2r",
+        "title": "Bigdata Engineer",
+        "company": "Объединенное Кредитное Бюро",
+        "description": "Разработка пайплайнов данных от обсуждения формата данных до написания ETL и формирования витрин данных; Поддержка совместной работы различных ETL механизмов без деградации их производительности; Проектирование и реализация хранения, обработки, очистки и обогащения данных; Реализация межсистемных интеграционных…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 215,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45864331/?search_id=1646746777577s7oizyyjx2r",
+        "title": "Data Engineer",
+        "company": "ПартКом, ООО",
+        "description": "Создание сложных отчетов; Поддержка существующих OLAP-кубов и ETL/ELT процессов, связанных с ними; Взаимодействие с заказчиками; Участие в развитии DWH, автоматизация подготовки витрин данных. Требования: Отличное знание SQL; SSAS, MSSQL, SSIS, SSRS, BI; Плюсом будет Python, колоночные/аналитические…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 216,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45584042/?search_id=1646746777577s7oizyyjx2r",
+        "title": "Cloud Infrastructure Lead / Ведущий инженер по инфраструктуре (СберЗвук Бизнес)",
+        "company": "СберЗвук",
+        "description": "Это что-то новое. СберЗвук для бизнеса — новое направление в аудиостриминге. Мы создаём музыкальную атмосферу в заведениях, чтобы бренды звучали красиво, увеличивали продажи и нравились людям. И для этого нам нужны профессионалы. О продукте. В нашем сервисе можно создать кастомный плейлист для любого…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 217,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45673102/?search_id=1646746777577s7oizyyjx2r",
+        "title": "Разработчик iOS",
+        "company": "ООО \"Центр Трансформации Бизнеса\"",
+        "description": "Развивать iOS приложения в команде разработчиков с заданной архитектурой. Использование Code Review и тестов в ходе разработки. Реализовывать продуктовые и технические решения согласно заданию. Оформление кода с файловой структурой и с учетом читабельности. Разработка программных модулей для обработки…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 218,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45817236/?search_id=1646746777577s7oizyyjx2r",
+        "title": "Senior Data Engineer",
+        "company": "СберМегаМаркет",
+        "description": "СберМегаМаркет — это большая дерзкая цель, крутая команда и стабильные инвестиции. Продукт, который мы создали — высоконагруженная онлайн-платформа, соединяющая товары и покупателей. Множество сервисов нашего продукта работают в гибридной инфраструктуре, которая постоянно расширяется и развивается…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 219,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45959130/?search_id=1646746777577s7oizyyjx2r",
+        "title": "Systems Engineer/SRE",
+        "company": "Okko",
+        "description": "Мультимедийный сервис Okko — один из крупнейших российских VoD-сервисов, лидер по платной модели монетизации. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Okko входит в экосистему Сбера. В…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 220,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45890625/?search_id=1646746777577s7oizyyjx2r",
+        "title": "Преподаватель курсов программирования (удаленно)",
+        "company": "Школа программирования TOKEN",
+        "description": "Школа программирования TOKEN - это место, где школьники под руководством преподавателей получают знания в современном и интересном формате, изучают программирование в игровой форме, знакомятся с востребованными профессиями будущего и прокачивают свои soft skills. Основные курсы школы: Minecraft, Scratch…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 221,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46203687/?search_id=1646746777577s7oizyyjx2r",
+        "title": "Риск-аналитик",
+        "company": "Микрокредитная компания Рубль.ру",
+        "description": "Разработка и оптимизация скоринговых моделей; Анализ переменных, разработка правил и групп на основе исследований переменных; Построение и проверка гипотез направленных на увеличение одобрения и выполнение показателей дефолтности; Выявление уязвимостей моделей; Разработка антифрод правил для пресечения…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 222,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45649680/?search_id=1646746777577s7oizyyjx2r",
+        "title": "Разработчик C++ в сервис Поиска",
+        "company": "2ГИС",
+        "description": "Привет! Мы в команде поиска разрабатываем поисковый движок для 2ГИС. Делаем его таким, чтобы наши пользователи находили всё точно, полно, быстро и на любом устройстве. Для этого мы проверяем работу поиска так, что тестов прогоняется за день больше, чем пользователи делают запросов на бою. Анализируем…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 223,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45465986/?search_id=1646746777577s7oizyyjx2r",
+        "title": "Разработчик на Python Back-end",
+        "company": "КОРУС Консалтинг СНГ",
+        "description": "СберКорус — цифровая платформа для компаний и физических лиц. Мы организуем любой бизнес-процесс без бумаги. В 2004 году компания “КОРУС Консалтинг СНГ” стала первым в России оператором электронного документооборота, а в 2012 году вошла в экосистему Сбера и сменила название, сохранив за собой все свои…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 224,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46087077/?search_id=1646746777577s7oizyyjx2r",
+        "title": "Специалист технической поддержки",
+        "company": "Тинькофф",
+        "description": "Поддержка пользователей высоконагруженной системы аналитики и мониторинга; Решение проблем в рамках своей компетенции; Взаимодействие со смежными подразделениями по решению технических вопросов; Требования: Опыт работы с технологиями и протоколами http, grpc, rest api; Понимание концепции работы клиент-сервер…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 225,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45996018/?search_id=1646746777577s7oizyyjx2r",
+        "title": "Python Developer",
+        "company": "ООО \"Ай-Ти Технолоджис\"",
+        "description": "Привет! Мы - IT-компания, ведем интересные и амбициозные проекты разной сложности. В нашей небольшой, но очень дружной команде освободилось место python backend разработчика на нашем главном и самом перспективном проекте. Мы ищем ответственного человека с жаждой знаний, который сможет занять это место…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 226,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45831061/?search_id=1646746777577s7oizyyjx2r",
+        "title": "Developer python",
+        "company": "ООО \"БИЗНЕС-ИННОВАЦИИ\"",
+        "description": "Поддерживать и оптимизировать текущие проекты, создавать новые; участвовать в проработке и улучшении архитектуры системы и API; использовать современные подходы, инструменты и технологии. Требования: экспертное владение Python, PostgreSql и MySQL; навыки создания Rest API; ответственность за качество…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 227,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/44770797/?search_id=1646746777577s7oizyyjx2r",
+        "title": "Backend-разработчик C/Go",
+        "company": "Rambler&Co",
+        "description": "Rambler&Co занимает первое место среди медиахолдингов России по размеру ежемесячной аудитории — свыше 39,5 млн человек (по данным Mediascope, Cross Web, H2 2021). В него входит «Лента.ру», «Газета.Ru», портал «Рамблер», «Чемпионат», «Секрет фирмы», WMJ.ru, Motor.ru, LiveJournal и ряд других медиаактивов…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 228,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45986915/?search_id=1646746777577s7oizyyjx2r",
+        "title": "Team Lead / Руководитель группы разработки",
+        "company": "Smarter",
+        "description": "SMARTER – аутсорсинговый контактный центр. Мы разработали программный комплекс для автоматизации работы всего колл-центра, сейчас им пользуются 1800 наших сотрудников и подключённые к системе компании-партнёры. У нас есть сложный и интересный проект с утвержденным планом развития на год с множеством…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 229,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/44027093/?search_id=1646746859684slg06w4vqjg",
+        "title": "Data Engineer",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 230,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45058051/?search_id=1646746859684slg06w4vqjg",
+        "title": "Python разработчик",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 231,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45492715/?search_id=1646746859684slg06w4vqjg",
+        "title": "Devops-инженер",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 232,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45492786/?search_id=1646746859684slg06w4vqjg",
+        "title": "Системный администратор",
+        "company": "Работа.ру",
+        "description": "Работа.ру — один из главных job-сервисов России. Мы помогаем людям не только найти работу, но и прокачать свои навыки или полностью поменять сферу, еще до собеседования узнать, насколько компания надежная, какие в ней зарплаты, и много чего еще. А компаниям — находить правильных сотрудников, даже если…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 233,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45986825/?search_id=1646746859684slg06w4vqjg",
+        "title": "Team Lead / Руководитель группы разработки",
+        "company": "Smarter",
+        "description": "SMARTER – аутсорсинговый контактный центр. Мы разработали программный комплекс для автоматизации работы всего колл-центра, сейчас им пользуются 1800 наших сотрудников и подключённые к системе компании-партнёры. У нас есть сложный и интересный проект с утвержденным планом развития на год с множеством…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 234,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46034942/?search_id=1646746859684slg06w4vqjg",
+        "title": "Bigdata Engineer",
+        "company": "Объединенное Кредитное Бюро",
+        "description": "Разработка пайплайнов данных от обсуждения формата данных до написания ETL и формирования витрин данных; Поддержка совместной работы различных ETL механизмов без деградации их производительности; Проектирование и реализация хранения, обработки, очистки и обогащения данных; Реализация межсистемных интеграционных…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 235,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45864331/?search_id=1646746859684slg06w4vqjg",
+        "title": "Data Engineer",
+        "company": "ПартКом, ООО",
+        "description": "Создание сложных отчетов; Поддержка существующих OLAP-кубов и ETL/ELT процессов, связанных с ними; Взаимодействие с заказчиками; Участие в развитии DWH, автоматизация подготовки витрин данных. Требования: Отличное знание SQL; SSAS, MSSQL, SSIS, SSRS, BI; Плюсом будет Python, колоночные/аналитические…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 236,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45584042/?search_id=1646746859684slg06w4vqjg",
+        "title": "Cloud Infrastructure Lead / Ведущий инженер по инфраструктуре (СберЗвук Бизнес)",
+        "company": "СберЗвук",
+        "description": "Это что-то новое. СберЗвук для бизнеса — новое направление в аудиостриминге. Мы создаём музыкальную атмосферу в заведениях, чтобы бренды звучали красиво, увеличивали продажи и нравились людям. И для этого нам нужны профессионалы. О продукте. В нашем сервисе можно создать кастомный плейлист для любого…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 237,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45673102/?search_id=1646746859684slg06w4vqjg",
+        "title": "Разработчик iOS",
+        "company": "ООО \"Центр Трансформации Бизнеса\"",
+        "description": "Развивать iOS приложения в команде разработчиков с заданной архитектурой. Использование Code Review и тестов в ходе разработки. Реализовывать продуктовые и технические решения согласно заданию. Оформление кода с файловой структурой и с учетом читабельности. Разработка программных модулей для обработки…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 238,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45817236/?search_id=1646746859684slg06w4vqjg",
+        "title": "Senior Data Engineer",
+        "company": "СберМегаМаркет",
+        "description": "СберМегаМаркет — это большая дерзкая цель, крутая команда и стабильные инвестиции. Продукт, который мы создали — высоконагруженная онлайн-платформа, соединяющая товары и покупателей. Множество сервисов нашего продукта работают в гибридной инфраструктуре, которая постоянно расширяется и развивается…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 239,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45959130/?search_id=1646746859684slg06w4vqjg",
+        "title": "Systems Engineer/SRE",
+        "company": "Okko",
+        "description": "Мультимедийный сервис Okko — один из крупнейших российских VoD-сервисов, лидер по платной модели монетизации. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Okko входит в экосистему Сбера. В…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 240,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45890625/?search_id=1646746859684slg06w4vqjg",
+        "title": "Преподаватель курсов программирования (удаленно)",
+        "company": "Школа программирования TOKEN",
+        "description": "Школа программирования TOKEN - это место, где школьники под руководством преподавателей получают знания в современном и интересном формате, изучают программирование в игровой форме, знакомятся с востребованными профессиями будущего и прокачивают свои soft skills. Основные курсы школы: Minecraft, Scratch…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 241,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46203687/?search_id=1646746859684slg06w4vqjg",
+        "title": "Риск-аналитик",
+        "company": "Микрокредитная компания Рубль.ру",
+        "description": "Разработка и оптимизация скоринговых моделей; Анализ переменных, разработка правил и групп на основе исследований переменных; Построение и проверка гипотез направленных на увеличение одобрения и выполнение показателей дефолтности; Выявление уязвимостей моделей; Разработка антифрод правил для пресечения…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 242,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45649680/?search_id=1646746859684slg06w4vqjg",
+        "title": "Разработчик C++ в сервис Поиска",
+        "company": "2ГИС",
+        "description": "Привет! Мы в команде поиска разрабатываем поисковый движок для 2ГИС. Делаем его таким, чтобы наши пользователи находили всё точно, полно, быстро и на любом устройстве. Для этого мы проверяем работу поиска так, что тестов прогоняется за день больше, чем пользователи делают запросов на бою. Анализируем…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 243,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45465986/?search_id=1646746859684slg06w4vqjg",
+        "title": "Разработчик на Python Back-end",
+        "company": "КОРУС Консалтинг СНГ",
+        "description": "СберКорус — цифровая платформа для компаний и физических лиц. Мы организуем любой бизнес-процесс без бумаги. В 2004 году компания “КОРУС Консалтинг СНГ” стала первым в России оператором электронного документооборота, а в 2012 году вошла в экосистему Сбера и сменила название, сохранив за собой все свои…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 244,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/46087077/?search_id=1646746859684slg06w4vqjg",
+        "title": "Специалист технической поддержки",
+        "company": "Тинькофф",
+        "description": "Поддержка пользователей высоконагруженной системы аналитики и мониторинга; Решение проблем в рамках своей компетенции; Взаимодействие со смежными подразделениями по решению технических вопросов; Требования: Опыт работы с технологиями и протоколами http, grpc, rest api; Понимание концепции работы клиент-сервер…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 245,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45996018/?search_id=1646746859684slg06w4vqjg",
+        "title": "Python Developer",
+        "company": "ООО \"Ай-Ти Технолоджис\"",
+        "description": "Привет! Мы - IT-компания, ведем интересные и амбициозные проекты разной сложности. В нашей небольшой, но очень дружной команде освободилось место python backend разработчика на нашем главном и самом перспективном проекте. Мы ищем ответственного человека с жаждой знаний, который сможет занять это место…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 246,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45831061/?search_id=1646746859684slg06w4vqjg",
+        "title": "Developer python",
+        "company": "ООО \"БИЗНЕС-ИННОВАЦИИ\"",
+        "description": "Поддерживать и оптимизировать текущие проекты, создавать новые; участвовать в проработке и улучшении архитектуры системы и API; использовать современные подходы, инструменты и технологии. Требования: экспертное владение Python, PostgreSql и MySQL; навыки создания Rest API; ответственность за качество…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 247,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/44770797/?search_id=1646746859684slg06w4vqjg",
+        "title": "Backend-разработчик C/Go",
+        "company": "Rambler&Co",
+        "description": "Rambler&Co занимает первое место среди медиахолдингов России по размеру ежемесячной аудитории — свыше 39,5 млн человек (по данным Mediascope, Cross Web, H2 2021). В него входит «Лента.ру», «Газета.Ru», портал «Рамблер», «Чемпионат», «Секрет фирмы», WMJ.ru, Motor.ru, LiveJournal и ряд других медиаактивов…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.vacancy",
+    "pk": 248,
+    "fields": {
+        "url": "https://tumen.rabota.ru/vacancy/45986915/?search_id=1646746859684slg06w4vqjg",
+        "title": "Team Lead / Руководитель группы разработки",
+        "company": "Smarter",
+        "description": "SMARTER – аутсорсинговый контактный центр. Мы разработали программный комплекс для автоматизации работы всего колл-центра, сейчас им пользуются 1800 наших сотрудников и подключённые к системе компании-партнёры. У нас есть сложный и интересный проект с утвержденным планом развития на год с множеством…",
+        "city": 3,
+        "language": 2,
+        "timestamp": "2022-03-08"
+    }
+},
+{
+    "model": "scraping.url",
+    "pk": 5,
+    "fields": {
+        "city": 3,
+        "language": 2,
+        "url_data": {
+            "hh": "https://tyumen.hh.ru/search/vacancy?area=3&fromSearchLine=true&text=python",
+            "rabota": "https://tumen.rabota.ru/vacancy/?query=python&sort=relevance"
+        }
+    }
+},
+{
+    "model": "scraping.url",
+    "pk": 7,
+    "fields": {
+        "city": 5,
+        "language": 2,
+        "url_data": {
+            "hh": "https://hh.ru/search/vacancy?area=3&fromSearchLine=true&text=python",
+            "rabota": "https://www.rabota.ru/vacancy/?query=python&location.ll=55.75322,37.622513&location.kind=region&location.radius=any&location.regionId=3&location.name=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&sort=relevance"
+        }
+    }
+}
+]
