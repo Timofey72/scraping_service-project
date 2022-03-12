@@ -27,7 +27,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["vacancy-programming.herokuapp.com", "https://vacancy-programming.herokuapp.com/"]
+ALLOWED_HOSTS = ["vacancy-programming.herokuapp.com", "https://vacancy-programming.herokuapp.com/", '127.0.0.1',
+                 'localhost']
 
 SECRET_KEY = os.getenv('SECRET_KEY')
 
@@ -65,7 +66,7 @@ ROOT_URLCONF = 'scraping_service.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

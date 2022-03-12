@@ -1,3 +1,4 @@
+from django.contrib.auth.decorators import login_required
 from django.core.paginator import Paginator
 from django.shortcuts import render
 from .models import Vacancy
@@ -37,3 +38,13 @@ def list_view(request):
         'language': language
     }
     return render(request, 'scraping/list.html', context)
+
+
+@login_required
+def error_404(request, exception):
+    return render(request, 'errors/404.html')
+
+
+@login_required
+def error_500(request):
+    return render(request, 'errors/500.html')

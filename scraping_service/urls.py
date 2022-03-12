@@ -23,3 +23,6 @@ urlpatterns = [
     path('list', views.list_view, name='list'),
     path('accounts/', include('accounts.urls'))
 ]
+
+handler404 = "scraping.views.error_404"
+handler500 = "scraping.views.error_500"
