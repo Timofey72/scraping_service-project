@@ -1,0 +1,19 @@
+<!doctype html>
+{% extends "scraping/base.html" %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %} 400 {% endblock %}</title>
+</head>
+<body>
+{% block content %}
+
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <h1>Неправильный запрос! (400)</h1>
+        </div>
+    </div>
+
+{% endblock %}
+</body>
+</html>
